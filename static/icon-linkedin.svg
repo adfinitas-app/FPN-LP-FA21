@@ -1,0 +1,13 @@
+<svg id="LinkedIn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51.626" height="51.626" viewBox="0 0 51.626 51.626">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_64" data-name="Rectangle 64" width="25.194" height="25.193" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_169" data-name="Groupe 169" transform="translate(13.216 13.216)">
+    <g id="Groupe_168" data-name="Groupe 168" clip-path="url(#clip-path)">
+      <path id="Tracé_972" data-name="Tracé 972" d="M5.639,25.193H.416V8.373H5.639ZM3.025,6.078A3.039,3.039,0,1,1,6.05,3.025,3.051,3.051,0,0,1,3.025,6.078M25.189,25.193H19.977V17.005c0-1.951-.039-4.454-2.716-4.454-2.716,0-3.132,2.12-3.132,4.313v8.329H8.911V8.373h5.01v2.294h.073a5.488,5.488,0,0,1,4.942-2.716c5.286,0,6.258,3.481,6.258,8v9.24Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+  <path id="Ellipse_5" data-name="Ellipse 5" d="M25.813,4.218a21.6,21.6,0,1,0,21.6,21.6,21.62,21.62,0,0,0-21.6-21.6m0-4.218A25.813,25.813,0,1,1,0,25.813,25.813,25.813,0,0,1,25.813,0Z" transform="translate(0 0)" fill="#fff"/>
+</svg>

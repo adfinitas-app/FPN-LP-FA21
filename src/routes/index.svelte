@@ -5,6 +5,7 @@
 	import SolutionBlock from '$lib/blocks/SolutionBlock.svelte';
 	import DonBlock from '$lib/blocks/DonBlock.svelte';
 	import TestimonialBlock from '$lib/blocks/TestimonialBlock.svelte';
+	import FooterBlock from '$lib/blocks/FooterBlock.svelte';
 </script>
 
 <Navbar />
@@ -13,3 +14,4 @@
 <SolutionBlock />
 <DonBlock />
 <TestimonialBlock />
+<FooterBlock />

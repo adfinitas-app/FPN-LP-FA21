@@ -1,0 +1,13 @@
+<svg id="Youtube" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51.626" height="51.626" viewBox="0 0 51.626 51.626">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_67" data-name="Rectangle 67" width="30.713" height="21.595" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_175" data-name="Groupe 175" transform="translate(10.46 15.015)">
+    <g id="Groupe_174" data-name="Groupe 174" clip-path="url(#clip-path)">
+      <path id="Tracé_975" data-name="Tracé 975" d="M30.071,3.379A3.859,3.859,0,0,0,27.356.646c-2.4-.646-12-.646-12-.646s-9.6,0-12,.646A3.859,3.859,0,0,0,.642,3.379,40.484,40.484,0,0,0,0,10.819a40.484,40.484,0,0,0,.642,7.44,3.8,3.8,0,0,0,2.715,2.689c2.4.646,12,.646,12,.646s9.6,0,12-.646a3.8,3.8,0,0,0,2.715-2.689,40.484,40.484,0,0,0,.642-7.44,40.484,40.484,0,0,0-.642-7.44M12.215,15.386V6.253l8.027,4.567Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+  <path id="Ellipse_3" data-name="Ellipse 3" d="M25.813,4.218a21.6,21.6,0,1,0,21.6,21.6,21.62,21.62,0,0,0-21.6-21.6m0-4.218A25.813,25.813,0,1,1,0,25.813,25.813,25.813,0,0,1,25.813,0Z" transform="translate(0 0)" fill="#fff"/>
+</svg>

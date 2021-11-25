@@ -8,12 +8,12 @@
 			<PlaceholderWithCorner>
 				<div>
 					<h2 class='text-4xl text-fpn-blue-dark font-extrabold text-center'>
-						Leur bonheur est notre récompense.
+						<span>L</span>eur bonheur est notre récompense.
 					</h2>
 					<p class='text-right'>Lino Ventura</p>
 				</div>
 			</PlaceholderWithCorner>
-			<p class='text-sm italic pt-16'>
+			<p class='text-sm italic pt-12 text-justify'>
 				La Fondation Perce-Neige mène un combat initié il y a plus 55 ans par Lino Ventura,
 				pour que les personnes handicapées trouvent leur place dans la société et soient reconnues
 				en tant qu’individus à part entière. Pour cela, la Fondation accueille et accompagne,
@@ -21,7 +21,7 @@
 				un handicap physique ou psychique. Elle apporte un soutien aux familles touchées
 				par le handicap et favorise la recherche scientifique et médicale.
 			</p>
-			<p class='text-sm italic pt-6'>
+			<p class='text-sm italic pt-6 text-justify'>
 				Reconnue d’utilité publique, La Fondation Perce Neige a besoin de votre soutien
 				pour aider les personnes handicapées à s’épanouir sereinement et pleinement
 				au sein de la société.
