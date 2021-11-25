@@ -1,0 +1,50 @@
+<script>
+	import PlaceholderWithCorner from '$lib/components/PlaceholderWithCorner.svelte';
+</script>
+
+<section class='relative max-w-6xl mx-auto py-16'>
+	<div class='mx-auto max-w-4xl grid grid-cols-2 gap-24'>
+		<div class='text-fpn-blue'>
+			<PlaceholderWithCorner>
+				<div>
+					<h2 class='text-4xl text-fpn-blue-dark font-extrabold text-center'>
+						Leur bonheur est notre récompense.
+					</h2>
+					<p class='text-right'>Lino Ventura</p>
+				</div>
+			</PlaceholderWithCorner>
+			<p class='text-sm italic pt-16'>
+				La Fondation Perce-Neige mène un combat initié il y a plus 55 ans par Lino Ventura,
+				pour que les personnes handicapées trouvent leur place dans la société et soient reconnues
+				en tant qu’individus à part entière. Pour cela, la Fondation accueille et accompagne,
+				de façon adaptée, les enfants et les adultes touchés par une déficience mentale,
+				un handicap physique ou psychique. Elle apporte un soutien aux familles touchées
+				par le handicap et favorise la recherche scientifique et médicale.
+			</p>
+			<p class='text-sm italic pt-6'>
+				Reconnue d’utilité publique, La Fondation Perce Neige a besoin de votre soutien
+				pour aider les personnes handicapées à s’épanouir sereinement et pleinement
+				au sein de la société.
+			</p>
+		</div>
+		<div class='flex justify-center items-center'>
+			<div class='w-full'>
+				<div class='relative w-full inline-block'>
+					<div class='mt-full'></div>
+					<div class='absolute top-0 bottom-0 left-0 right-0 bg-fpn-blue p-5'>
+						<div class='relative h-full w-full'>
+							<img class='relative top-0 w-full h-full opacity-75' src='photo-video.png' alt='Photo de la video' />
+							<div class='absolute top-0 w-full h-full opacity-50 bg-white'></div>
+							<div class='absolute top-0 bottom-0 left-0 right-0 flex justify-center items-center'>
+								<img class='absolute opacity-80' style='width: 90px;' src='/icon-play.svg' alt='icone de lancement de video' />
+								<p class='relative top-20 uppercase text-2xl text-white font-extrabold'>
+									Voir la video
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

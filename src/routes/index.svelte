@@ -4,6 +4,7 @@
 	import PrejugeBlock from '$lib/blocks/PrejugeBlock.svelte';
 	import SolutionBlock from '$lib/blocks/SolutionBlock.svelte';
 	import DonBlock from '$lib/blocks/DonBlock.svelte';
+	import TestimonialBlock from '$lib/blocks/TestimonialBlock.svelte';
 </script>
 
 <Navbar />
@@ -11,3 +12,4 @@
 <PrejugeBlock />
 <SolutionBlock />
 <DonBlock />
+<TestimonialBlock />
