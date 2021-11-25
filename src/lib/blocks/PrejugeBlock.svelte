@@ -6,7 +6,7 @@
 
 <section class='mt-16'>
 	<div>
-		<div class='mx-auto max-w-6xl'>
+		<div class='mx-auto max-w-5xl'>
 			<PlaceholderWithCorner>
 				<h2 class='text-4xl text-fpn-blue-dark font-extrabold text-center'>
 					Luttons contre les préjugés, offrons-leur un sourire !
@@ -15,8 +15,8 @@
 		</div>
 		<div class='relative py-10 bg-gradient-to-b from-white to-gray-200' >
 			<div class='absolute top-0 bottom-0 left-0 right-0 bg-repeat-x bg-top rotate-180' style='background-image: url("/bg-pattern.png")'></div>
-			<div class='mx-auto max-w-6xl z-10 relative'>
-				<div class='mx-8 grid grid-cols-3 gap-x-8 mt-10'>
+			<div class='mx-auto max-w-5xl z-10 relative'>
+				<div class='grid grid-cols-3 gap-x-8 mt-10'>
 					<img src='/photo-prejuge-1.png' alt='Photo de préjugés' />
 					<div class='col-span-2 flex'>
 						<PrejugeTab />
@@ -27,8 +27,8 @@
 				</div>
 			</div>
 		</div>
-		<div class='mx-auto max-w-6xl'>
-			<div class='py-16 mx-8'>
+		<div class='mx-auto max-w-5xl'>
+			<div class='py-16'>
 				<PrejugeGrid />
 			</div>
 		</div>

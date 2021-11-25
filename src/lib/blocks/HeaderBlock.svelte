@@ -3,14 +3,14 @@
 </script>
 
 <section class='bg-fpn-blue' style='padding-top: 80px;'>
-	<div class='mx-auto max-w-6xl grid grid-cols-2 justify-items-center'>
+	<div class='mx-auto max-w-5xl grid grid-cols-2 justify-items-center'>
 		<div class='max-w-lg self-bottom'>
 			<img src='/photo-header.png' alt='Image' />
 		</div>
 		<div class='max-w-2xl self-center text-white text-center my-14'>
 			<PlaceholderWithCorner>
-				<h1 class='text-2xl font-extrabold'>
-					<span class='text-4xl'>30 jours</span> pour faire
+				<h1 class='text-4xl font-extrabold'>
+					<span class='text-5xl'>30 jours</span> pour faire
 					place aux personnes
 					en situation de handicap
 				</h1>
