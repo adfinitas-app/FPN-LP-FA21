@@ -3,7 +3,7 @@
 </script>
 
 <section class='bg-fpn-blue' style='padding-top: 80px;'>
-	<div class='mx-auto max-w-7xl grid grid-cols-2 justify-items-center'>
+	<div class='mx-auto max-w-6xl grid grid-cols-2 justify-items-center'>
 		<div class='max-w-lg self-bottom'>
 			<img src='/photo-header.png' alt='Image' />
 		</div>

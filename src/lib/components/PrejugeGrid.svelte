@@ -1,7 +1,7 @@
 <script>
 	import { grid_options } from '$lib/block-prejuge-config';
 
-	let selected_grid = null;
+	let selected_grid = 1;
 </script>
 
 <section class='relative'>
@@ -37,21 +37,21 @@
 							 on:click={() => selected_grid = null} />
 					<div class='flex flex-col space-between h-full'>
 						<div class='pr-10'>
-							<p class='italic text-4xl'>{elem.title}</p>
-							<p class='mx-10 mt-10 text-3xl italic'>{elem.subtitle}</p>
+							<p class='italic text-2xl'>{elem.title}</p>
+							<p class='mx-10 mt-10 text-xl italic'>{elem.subtitle}</p>
 						</div>
 						{#if elem.testimonial}
 							<div class='mx-10 mt-10'>
-								<p class='italic text-xl'>{@html elem.testimonial}</p>
+								<p class='italic text-md'>{@html elem.testimonial}</p>
 							</div>
 						{/if}
 						<div class='border-b-8 w-64 my-10 mx-auto border-fpn-orange'></div>
 						<div class='mx-10'>
-							<p class='italic underline text-xl'>{elem.solution_title}</p>
-							<p class='italic text-xl mt-4'>{@html elem.solution_text}</p>
+							<p class='italic underline text-md'>{elem.solution_title}</p>
+							<p class='italic text-md mt-4'>{@html elem.solution_text}</p>
 						</div>
 						<div class='mx-10 mt-10'>
-							<p class='text-2xl font-extrabold italic'>{elem.precta_text}</p>
+							<p class='text-xl font-extrabold italic'>{elem.precta_text}</p>
 							<div class='mt-10 text-center'>
 								<a class='uppercase p-5 bg-fpn-orange text-white text-sm font-bold cursor-pointer'>
 									<img class='inline-block h-6 pr-3' src='/icon-donner.svg' alt='donner logo' />
