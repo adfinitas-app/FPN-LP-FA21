@@ -4,25 +4,33 @@
 	import PrejugeGrid from '$lib/components/PrejugeGrid.svelte';
 </script>
 
-<section class='mt-16 px-64'>
+<section class='mt-16'>
 	<div>
-		<PlaceholderWithCorner>
-			<h2 class='text-5xl text-fpn-blue-dark font-extrabold text-center'>
-				Luttons contre les préjugés, offrons-leur un sourire !
-			</h2>
-		</PlaceholderWithCorner>
-	</div>
-	<div class='py-16 bg-bottom bg-repeat-x' style='background-image: url("/bg-pattern.png")'>
-		<div class='flex space-between mt-10 gap-x-10 bg-bottom bg-repeat-x'>
-			<img src='/photo-prejuge-1.png' alt='Photo de préjugés' />
-			<PrejugeTab />
+		<div class='mx-auto max-w-7xl'>
+			<PlaceholderWithCorner>
+				<h2 class='text-4xl text-fpn-blue-dark font-extrabold text-center'>
+					Luttons contre les préjugés, offrons-leur un sourire !
+				</h2>
+			</PlaceholderWithCorner>
 		</div>
-		<div class='w-full mt-2'>
-			<p class='text-right text-sm italic text-fpn-blue font-bold'><u>Source</u> : La perception du handicap mental en
-				France, Ipsos, 2010.</p>
+		<div class='relative py-10 bg-gradient-to-b from-white to-gray-200' >
+			<div class='absolute top-0 bottom-0 left-0 right-0 bg-repeat-x bg-top rotate-180' style='background-image: url("/bg-pattern.png")'></div>
+			<div class='mx-auto max-w-7xl z-10 relative'>
+				<div class='mx-8 grid grid-cols-3 gap-x-8 mt-10'>
+					<img src='/photo-prejuge-1.png' alt='Photo de préjugés' />
+					<div class='col-span-2 flex'>
+						<PrejugeTab />
+					</div>
+					<p class='col-span-3 text-right text-sm italic text-fpn-blue font-bold'>
+						<u>Source</u> : La perception du handicap mental en France, Ipsos, 2010.
+					</p>
+				</div>
+			</div>
 		</div>
-	</div>
-	<div class='py-16'>
-		<PrejugeGrid />
+		<div class='mx-auto max-w-7xl'>
+			<div class='py-16 mx-8'>
+				<PrejugeGrid />
+			</div>
+		</div>
 	</div>
 </section>

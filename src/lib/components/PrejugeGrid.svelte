@@ -5,7 +5,7 @@
 </script>
 
 <section class='relative'>
-	<div class='grid grid-cols-3 gap-16 text-white text-4xl text-center'>
+	<div class='grid grid-cols-3 gap-8 text-white text-xl text-center'>
 		{#each grid_options as elem, index}
 			<div>
 				<div class='relative w-full inline-block'>
@@ -14,13 +14,13 @@
 						{#if elem.type === 'img'}
 							<img src={elem.src} />
 						{:else}
-							<img class='absolute z-0 top-16 left-10' src='/icon-quote.svg' alt='Plus icon' />
+							<img class='absolute z-0 top-16 left-10' style='width: 50px' src='/icon-quote.svg' alt='Plus icon' />
 							<div class='h-full w-full flex justify-center items-center'>
 								<p class='z-10 mx-10 italic'>
 									{elem.title}
 								</p>
 							</div>
-							<img class='absolute bottom-8 right-8 cursor-pointer' src='/icon-plus.svg' alt='Plus icon'
+							<img class='absolute bottom-8 right-8 cursor-pointer' style='width: 40px;' src='/icon-plus.svg' alt='Plus icon'
 									 on:click={() => selected_grid = index} />
 						{/if}
 					</div>

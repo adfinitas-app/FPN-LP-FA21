@@ -1,5 +1,5 @@
-<section class='z-50 flex w-screen fixed top-0 bg-fpn-blue-dark justify-between px-64' style='height: 110px;'>
-	<div class='bg-white grid place-items-center' style='height: 150px; width: 135px;'>
+<section class='z-50 flex w-screen fixed top-0 bg-fpn-blue-dark justify-between px-80' style='height: 80px;'>
+	<div class='bg-white grid place-items-center' style='height: 130px; width: 115px;'>
 		<a>
 			<img src='/logo.png' alt='FPN Logo' />
 		</a>

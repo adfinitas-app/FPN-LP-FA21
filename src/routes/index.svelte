@@ -6,8 +6,6 @@
 </script>
 
 <Navbar />
-<div class='bg-fpn-blue' style='padding-top: 150px;'>
-	<HeaderBlock />
-</div>
+<HeaderBlock />
 <PrejugeBlock />
 <SolutionBlock />
