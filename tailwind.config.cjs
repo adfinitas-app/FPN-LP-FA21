@@ -3,6 +3,12 @@ const config = {
 
 	theme: {
 		extend: {
+			margin: {
+				'full': '100%',
+			},
+			padding: {
+				'full': '100%',
+			},
 			minWidth: {
 				'0': '0',
 				'1/4': '25%',

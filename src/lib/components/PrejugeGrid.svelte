@@ -7,20 +7,25 @@
 <section class='relative'>
 	<div class='grid grid-cols-3 gap-16 text-white text-4xl text-center'>
 		{#each grid_options as elem, index}
-			{#if elem.type === 'img'}
-				<div class='aspect-1' style={`background-image: url("${elem.src}")`}></div>
-			{:else}
-				<div class='relative aspect-1 bg-fpn-blue'>
-					<img class='absolute z-0 top-16 left-10' src='/icon-quote.svg' alt='Plus icon' />
-					<div class='h-full w-full flex justify-center items-center'>
-						<p class='z-10 mx-10 italic'>
-							{elem.title}
-						</p>
+			<div>
+				<div class='relative w-full inline-block'>
+					<div class='mt-full'></div>
+					<div class='absolute top-0 bottom-0 left-0 right-0 bg-fpn-blue'>
+						{#if elem.type === 'img'}
+							<img src={elem.src} />
+						{:else}
+							<img class='absolute z-0 top-16 left-10' src='/icon-quote.svg' alt='Plus icon' />
+							<div class='h-full w-full flex justify-center items-center'>
+								<p class='z-10 mx-10 italic'>
+									{elem.title}
+								</p>
+							</div>
+							<img class='absolute bottom-8 right-8 cursor-pointer' src='/icon-plus.svg' alt='Plus icon'
+									 on:click={() => selected_grid = index} />
+						{/if}
 					</div>
-					<img class='absolute bottom-8 right-8 cursor-pointer' src='/icon-plus.svg' alt='Plus icon'
-							 on:click={() => selected_grid = index} />
 				</div>
-			{/if}
+			</div>
 		{/each}
 	</div>
 	<div>
