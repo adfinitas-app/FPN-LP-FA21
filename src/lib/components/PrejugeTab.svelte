@@ -7,7 +7,7 @@
 <section class='bg-fpn-blue text-white w-full flex flex-col'>
 	<div class='grid grid-cols-3 items-center justify-center'>
 		{#each tab_options as elem, index}
-			<div class='group text-center text-5xl py-14 cursor-pointer'
+			<div class='group text-center text-4xl py-14 cursor-pointer'
 					 class:bg-fpn-blue-dark={selected_tab !== index}
 					 on:click={() => selected_tab = index}>
 				<div>
@@ -19,7 +19,7 @@
 		{/each}
 	</div>
 	<div class='flex-grow flex justify-center items-center px-16'>
-		<img src='/icon-info.png' alt='Information icon' style='width: 45px;' />
+		<img src='/icon-info.png' alt='Information icon' style='width: 35px;' />
 		<div class='text-xl pl-14'>
 			{#each tab_options as elem, index}
 				<p class:hidden={selected_tab !== index}>{elem.text}</p>
