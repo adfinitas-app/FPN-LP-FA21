@@ -1,4 +1,4 @@
-<section class='z-50 w-screen fixed top-0 bg-fpn-blue-dark'>
+<section class='z-50 w-screen fixed top-0 bg-fpn-blue-dark max-w-7xl translate-x-1/4'>
 	<div class='max-w-6xl mx-auto flex justify-between' style='height: 80px;'>
 		<div class='bg-white grid place-items-center' style='height: 130px; width: 115px;'>
 			<a>

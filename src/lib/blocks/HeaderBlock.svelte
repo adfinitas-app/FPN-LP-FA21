@@ -2,11 +2,9 @@
 	import PlaceholderWithCorner from '$lib/components/PlaceholderWithCorner.svelte';
 </script>
 
-<section class='bg-fpn-blue' style='padding-top: 80px;'>
+<section class='max-w-7xl mx-auto bg-fpn-blue' style='margin-top: 85px;'>
 	<div class='mx-auto max-w-5xl grid grid-cols-2 justify-items-center'>
-		<div class='max-w-lg self-bottom'>
-			<img src='/photo-header.png' alt='Image' />
-		</div>
+		<img class='max-w-lg self-bottom' src='/photo-header.png' alt='Image' />
 		<div class='max-w-2xl self-center text-white text-center my-14'>
 			<PlaceholderWithCorner>
 				<h1 class='text-4xl font-extrabold'>

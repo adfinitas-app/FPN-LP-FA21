@@ -1,7 +1,7 @@
 <script>
 	import { grid_options } from '$lib/block-prejuge-config';
 
-	let selected_grid = 1;
+	let selected_grid = null;
 </script>
 
 <section class='relative'>

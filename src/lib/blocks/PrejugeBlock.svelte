@@ -4,7 +4,7 @@
 	import PrejugeGrid from '$lib/components/PrejugeGrid.svelte';
 </script>
 
-<section class='mt-16'>
+<section class='mt-16 max-w-7xl mx-auto'>
 	<div>
 		<div class='mx-auto max-w-5xl'>
 			<PlaceholderWithCorner>
