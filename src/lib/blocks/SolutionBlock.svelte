@@ -18,7 +18,7 @@
 			</p>
 			<div class='grid grid-cols-2 gap-8'>
 				<img src='photo-solution.png' alt='Solution photo' />
-				<div class='h-full flex flex-col justify-center text-fpn-blue text-md font-bold gap-4'>
+				<div class='h-full flex flex-col justify-center text-fpn-blue text-md font-bold gap-4 overflow-hidden'>
 					<div data-aos='slide-left'>
 						<div class='flex' data-aos='fade-in' data-aos-easing='easing-out' data-aos-duration='750'>
 							<img src='/icon-arrow.svg' style='width: 30px;' alt='icone de fleche' />
