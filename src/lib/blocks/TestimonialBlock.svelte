@@ -13,7 +13,7 @@
 					<p class='text-right'>Lino Ventura</p>
 				</div>
 			</PlaceholderWithCorner>
-			<p class='text-sm italic pt-6 text-justify'>
+			<p class='text-sm italic pt-6 text-justify' data-aos='fade-in'>
 				La Fondation Perce-Neige mène un combat initié il y a plus 55 ans par Lino Ventura,
 				pour que les personnes handicapées trouvent leur place dans la société et soient reconnues
 				en tant qu’individus à part entière. Pour cela, la Fondation accueille et accompagne,
@@ -21,7 +21,7 @@
 				un handicap physique ou psychique. Elle apporte un soutien aux familles touchées
 				par le handicap et favorise la recherche scientifique et médicale.
 			</p>
-			<p class='text-sm italic pt-4 text-justify'>
+			<p class='text-sm italic pt-4 text-justify' data-aos='fade-in'>
 				Reconnue d’utilité publique, La Fondation Perce Neige a besoin de votre soutien
 				pour aider les personnes handicapées à s’épanouir sereinement et pleinement
 				au sein de la société.
@@ -29,14 +29,18 @@
 		</div>
 		<div class='flex justify-center items-end'>
 			<div class='w-full'>
-				<div class='relative w-full inline-block'>
+				<div class='relative w-full inline-block' data-aos='flip-down'>
 					<div class='mt-full'></div>
+					<div class='absolute -top-10 bottom-10 left-10 -right-10 bg-gray-200'
+							 data-aos='zoom-in' data-aos-delay='400'></div>
 					<div class='absolute top-0 bottom-0 left-0 right-0 bg-fpn-blue p-5'>
 						<div class='relative h-full w-full'>
 							<img class='relative top-0 w-full h-full opacity-75' src='photo-video.png' alt='Photo de la video' />
 							<div class='absolute top-0 w-full h-full opacity-50 bg-white'></div>
 							<div class='absolute top-0 bottom-0 left-0 right-0 flex justify-center items-center'>
-								<img class='absolute opacity-80' style='width: 90px;' src='/icon-play.svg' alt='icone de lancement de video' />
+								<a class='absolute opacity-80 transition-transform hover:scale-125 hover:opacity-100 cursor-pointer'>
+									<img style='width: 90px;' src='/icon-play.svg' alt='icone de lancement de video' />
+								</a>
 								<p class='relative top-20 uppercase text-2xl text-white font-extrabold'>
 									Voir la video
 								</p>
@@ -50,15 +54,15 @@
 </section>
 
 <style>
-	h2 > span::before {
-			position: absolute;
-      content: ' ';
-      background-image: url("/icon-quote.svg");
-      background-size: 40px 40px;
-      width: 40px;
-			height: 40px;
-			z-index: -10;
-			top: -15px;
-			left: -25px;
-	}
+    h2 > span::before {
+        position: absolute;
+        content: ' ';
+        background-image: url("/icon-quote.svg");
+        background-size: 40px 40px;
+        width: 40px;
+        height: 40px;
+        z-index: -10;
+        top: -15px;
+        left: -25px;
+    }
 </style>

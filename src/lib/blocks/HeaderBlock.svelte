@@ -13,7 +13,9 @@
 					en situation de handicap
 				</h1>
 			</PlaceholderWithCorner>
-			<p class='text-md italic mt-10'>
+			<p class='text-md italic mt-10'
+				 data-aos='fade-in'
+				 data-aos-easing='ease-in-out'>
 				Les préjugés sont les premiers obstacles qui empêchent les personnes
 				en situation de handicap mental d’être pleinement respectées,
 				reconnues et intégrées. Aujourd’hui pour les aider à vivre sereinement au sein de la société,

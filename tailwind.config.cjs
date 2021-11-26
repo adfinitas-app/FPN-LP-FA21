@@ -17,6 +17,9 @@ const config = {
 				'3/4': '75%',
 				'full': '100%',
 			},
+			transitionProperty: {
+				'size': 'width, height',
+			},
 			colors: {
 				'fpn-blue': '#3573A8',
 				'fpn-blue-dark': '#2C5678',

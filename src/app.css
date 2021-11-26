@@ -1,48 +1,6 @@
 /* Write your global styles here, in PostCSS syntax */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@font-face {
-    font-family: "Museo";
-    src: url("/museosans-500-webfont.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Museo";
-    font-weight: 500;
-    font-style: normal;
-    src: url("/museosans-500-webfont.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Museo";
-    font-weight: 700;
-    font-style: normal;
-    src: url("/museosans-700-webfont.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Museo";
-    font-weight: 700;
-    font-style: italic;
-    src: url("/museosans-700italic-webfont.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Museo";
-    font-weight: 900;
-    font-style: normal;
-    src: url("/museosans-900-webfont.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Museo";
-    font-weight: 900;
-    font-style: italic;
-    src: url("/museosans-900italic-webfont.ttf") format("truetype");
-}
-
-body {
-    font-family: "Museo", Arial, sans-serif;
-}
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./styles/fonts.css";
+@import "aos/dist/aos.css";

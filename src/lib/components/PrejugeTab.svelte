@@ -13,7 +13,7 @@
 				<div>
 					{elem.percentage}<span class='pl-2 text-xl'>%</span>
 				</div>
-				<div class='border-b-8 w-20 mt-6 mx-auto group-hover:border-fpn-orange'
+				<div class='border-b-8 w-20 mt-6 mx-auto group-hover:border-fpn-orange transition-colors'
 						 class:border-fpn-orange={selected_tab === index}></div>
 			</div>
 		{/each}

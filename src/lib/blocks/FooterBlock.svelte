@@ -3,12 +3,12 @@
 		<div class='grid grid-cols-2 gap-24'>
 			<div>
 				<p class='text-4xl text-white font-extrabold'>
-					Perce<br/>
+					Perce<br />
 					Neige
 				</p>
 				<p class='mt-4 text-sm'>
 					Fondation reconnue d’utilité publique qui agit en faveur des enfants et adultes
-					touchés par une déficience mentale, un handicap physique ou psychique.<br/>
+					touchés par une déficience mentale, un handicap physique ou psychique.<br />
 					Créée en 1966 à l’initiative de l’acteur Lino Ventura.
 				</p>
 			</div>
@@ -16,11 +16,31 @@
 				<div class='flex justify-between items-center'>
 					<p>Suivez-nous</p>
 					<ul>
-						<li class='inline-block mr-1'><img style='width: 40px;' src='/icon-facebook.svg' alt='icone facebook' /></li>
-						<li class='inline-block mx-1'><img style='width: 40px;' src='/icon-twitter.svg' alt='icone twitter' /></li>
-						<li class='inline-block mx-1'><img style='width: 40px;' src='/icon-youtube.svg' alt='icone youtube' /></li>
-						<li class='inline-block mx-1'><img style='width: 40px;' src='/icon-instagram.svg' alt='icone instagram' /></li>
-						<li class='inline-block ml-1'><img style='width: 40px;' src='/icon-linkedin.svg' alt='icone linkedin' /></li>
+						<li class='inline-block mr-1 transition-transform hover:scale-110 cursor-pointer'>
+							<a>
+								<img style='width: 40px;' src='/icon-facebook.svg' alt='icone facebook' />
+							</a>
+						</li>
+						<li class='inline-block mx-1 transition-transform hover:scale-110 cursor-pointer'>
+							<a>
+								<img style='width: 40px;' src='/icon-twitter.svg' alt='icone twitter' />
+							</a>
+						</li>
+						<li class='inline-block mx-1 transition-transform hover:scale-110 cursor-pointer'>
+							<a>
+								<img style='width: 40px;' src='/icon-youtube.svg' alt='icone youtube' />
+							</a>
+						</li>
+						<li class='inline-block mx-1 transition-transform hover:scale-110 cursor-pointer'>
+							<a>
+								<img style='width: 40px;' src='/icon-instagram.svg' alt='icone instagram' />
+							</a>
+						</li>
+						<li class='inline-block ml-1 transition-transform hover:scale-110 cursor-pointer'>
+							<a>
+								<img style='width: 40px;' src='/icon-linkedin.svg' alt='icone linkedin' />
+							</a>
+						</li>
 					</ul>
 				</div>
 				<div class='mt-10'>
