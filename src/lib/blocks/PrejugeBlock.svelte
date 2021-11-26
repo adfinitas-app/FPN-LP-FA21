@@ -4,7 +4,7 @@
 	import PrejugeGrid from '$lib/components/PrejugeGrid.svelte';
 </script>
 
-<section class='mt-16 max-w-6xl mx-auto'>
+<section class='mt-10 max-w-6xl mx-auto'>
 	<div>
 		<div class='mx-auto max-w-4xl'>
 			<PlaceholderWithCorner>
@@ -13,7 +13,7 @@
 				</h2>
 			</PlaceholderWithCorner>
 		</div>
-		<div class='relative py-10 bg-gradient-to-b from-white to-gray-100' >
+		<div class='relative pb-6 bg-gradient-to-b from-white to-gray-100' >
 			<div class='absolute top-0 bottom-0 left-0 right-0 bg-repeat-x bg-top rotate-180 opacity-50' style='background-image: url("/bg-pattern.png")'></div>
 			<div class='mx-auto max-w-4xl z-10 relative'>
 				<div class='grid grid-cols-3 gap-x-8 mt-10'>

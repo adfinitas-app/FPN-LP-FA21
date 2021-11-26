@@ -1,4 +1,4 @@
-<section class='max-w-6xl mx-auto pt-16 pb-4 bg-fpn-blue text-white'>
+<section class='max-w-6xl mx-auto pt-6 pb-4 bg-fpn-blue text-white'>
 	<div class='mx-auto max-w-4xl'>
 		<div class='grid grid-cols-2 gap-24'>
 			<div>
@@ -16,11 +16,11 @@
 				<div class='flex justify-between items-center'>
 					<p>Suivez-nous</p>
 					<ul>
-						<li class='inline-block'><img style='width: 40px;' src='/icon-facebook.svg' alt='icone facebook' /></li>
-						<li class='inline-block'><img style='width: 40px;' src='/icon-twitter.svg' alt='icone twitter' /></li>
-						<li class='inline-block'><img style='width: 40px;' src='/icon-youtube.svg' alt='icone youtube' /></li>
-						<li class='inline-block'><img style='width: 40px;' src='/icon-instagram.svg' alt='icone instagram' /></li>
-						<li class='inline-block'><img style='width: 40px;' src='/icon-linkedin.svg' alt='icone linkedin' /></li>
+						<li class='inline-block mr-1'><img style='width: 40px;' src='/icon-facebook.svg' alt='icone facebook' /></li>
+						<li class='inline-block mx-1'><img style='width: 40px;' src='/icon-twitter.svg' alt='icone twitter' /></li>
+						<li class='inline-block mx-1'><img style='width: 40px;' src='/icon-youtube.svg' alt='icone youtube' /></li>
+						<li class='inline-block mx-1'><img style='width: 40px;' src='/icon-instagram.svg' alt='icone instagram' /></li>
+						<li class='inline-block ml-1'><img style='width: 40px;' src='/icon-linkedin.svg' alt='icone linkedin' /></li>
 					</ul>
 				</div>
 				<div class='mt-10'>
@@ -29,9 +29,9 @@
 			</div>
 		</div>
 		<ul class='text-xs text-center mt-12'>
-			<li class='inline-block'>Perce-Neige 2021</li>
-			<li class='inline-block'>Mentions légales</li>
-			<li class='inline-block'>Gestion des cookies</li>
+			<li class='inline-block mr-2'>Perce-Neige 2021</li>
+			<li class='inline-block mx-2'>Mentions légales</li>
+			<li class='inline-block ml-2'>Gestion des cookies</li>
 		</ul>
 	</div>
 </section>

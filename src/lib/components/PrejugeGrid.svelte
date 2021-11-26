@@ -38,9 +38,8 @@
 							 on:click={() => selected_grid = null} />
 					<div class='flex flex-col space-between justify-between h-full max-h-full'>
 						<div class='flex-shrink'>
-							<p class='italic text-xl'>Préjugé {index}</p>
-							<p class='italic text-xl'>{@html elem.title}</p>
-							<p class='mt-2 italic text-md'>{elem.subtitle}</p>
+							<p class='text-2xl text-fpn-orange font-extrabold'>{@html elem.title}</p>
+							<p class='mt-2 text-md'>{elem.subtitle}</p>
 						</div>
 						<div class='flex-1 bg-fpn-blue-dark overflow-y-auto my-4'>
 							<div class='p-4 flex flex-col gap-4 justify-center items-center h-full'>
@@ -56,7 +55,7 @@
 							</div>
 						</div>
 						<div class='flex-shrink'>
-							<p class='text-xl font-extrabold'>{elem.precta_text}</p>
+							<p class='text-md'>{elem.precta_text}</p>
 							<div class='mt-4 text-center'>
 								<a class='text-lg uppercase p-4 bg-fpn-orange text-white text-sm font-bold cursor-pointer'>
 									<img class='inline-block h-6 pr-3' src='/icon-donner.svg' alt='donner logo' />
