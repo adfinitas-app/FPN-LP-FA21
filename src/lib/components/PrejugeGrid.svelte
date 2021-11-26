@@ -5,7 +5,7 @@
 </script>
 
 <section class='relative'>
-	<div class='grid grid-cols-3 gap-8 text-white text-2xl text-center'>
+	<div class='grid grid-cols-3 gap-8 text-white text-xl text-center'>
 		{#each grid_options as elem, index}
 			<div>
 				<div class='relative w-full inline-block'>

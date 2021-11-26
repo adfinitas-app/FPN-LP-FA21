@@ -7,7 +7,7 @@
 		<div class='text-fpn-blue'>
 			<PlaceholderWithCorner>
 				<div>
-					<h2 class='text-4xl text-fpn-blue-dark font-extrabold text-center'>
+					<h2 class='text-3xl text-fpn-blue-dark font-extrabold text-center'>
 						<span class='relative'>L</span>eur bonheur est notre récompense.
 					</h2>
 					<p class='text-right'>Lino Ventura</p>

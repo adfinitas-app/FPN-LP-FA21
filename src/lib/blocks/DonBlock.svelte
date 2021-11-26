@@ -6,7 +6,7 @@
 	<div class='absolute z-0 bottom-0 w-full h-24 bg-white'></div>
 	<div class='relative z-10 mx-auto max-w-4xl text-white'>
 		<PlaceholderWithCorner>
-			<h2 class='text-4xl font-extrabold text-center'>
+			<h2 class='text-3xl font-extrabold text-center'>
 				Faites un don avant le 31 décembre et bénéficiez d’une déduction fiscale
 			</h2>
 		</PlaceholderWithCorner>

@@ -7,7 +7,7 @@
 		<div class='absolute top-0 bottom-0 left-0 right-0 bg-repeat-x bg-top opacity-50' style='background-image: url("/bg-pattern.png")'></div>
 		<div class='relative py-16 mx-auto max-w-4xl'>
 			<PlaceholderWithCorner>
-				<h2 class='text-4xl text-fpn-blue-dark font-extrabold text-center'>
+				<h2 class='text-3xl text-fpn-blue-dark font-extrabold text-center'>
 					30 jours pour redonner sourire et espérance !
 				</h2>
 			</PlaceholderWithCorner>

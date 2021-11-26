@@ -2,8 +2,8 @@
 	import PlaceholderWithCorner from '$lib/components/PlaceholderWithCorner.svelte';
 </script>
 
-<section class='max-w-6xl mx-auto bg-fpn-blue' style='margin-top: 85px;'>
-	<div class='mx-auto max-w-4xl grid grid-cols-2 justify-items-center'>
+<section class='max-w-6xl mx-auto bg-fpn-blue' style='margin-top: 80px;'>
+	<div class='mx-auto max-w-4xl grid grid-cols-2 justify-items-center gap-8'>
 		<img class='max-w-lg self-bottom' src='/photo-header.png' alt='Image' />
 		<div class='max-w-2xl self-center text-white text-center my-14'>
 			<PlaceholderWithCorner>

@@ -20,7 +20,7 @@
 	</div>
 	<div class='flex-grow flex justify-center items-center px-16'>
 		<img src='/icon-info.png' alt='Information icon' style='width: 35px;' />
-		<div class='text-xl pl-14'>
+		<div class='text-lg pl-14'>
 			{#each tab_options as elem, index}
 				<p class:hidden={selected_tab !== index}>{elem.text}</p>
 			{/each}
