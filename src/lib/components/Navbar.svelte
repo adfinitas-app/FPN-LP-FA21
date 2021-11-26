@@ -14,7 +14,7 @@
 
 <svelte:window on:scroll={calculateLogoSize} />
 
-<section class='z-50 w-screen fixed top-0'>
+<section class='z-50 w-full fixed top-0'>
 	<div class='bg-fpn-blue-dark max-w-6xl mx-auto'>
 		<div class='max-w-5xl mx-auto flex justify-between' style='height: 80px;'>
 			<div class='bg-white transition-size' style='height: 130px; width: 115px;' bind:this={logo}>
