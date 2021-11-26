@@ -14,7 +14,7 @@
 			</PlaceholderWithCorner>
 			<p class='text-lg text-fpn-blue italic my-10 text-center mx-8'>
 				Votre générosité nous permet d’agir concrètement pour aider les
-				personnes en situation de handicap et leur famille.
+				personnes en situation de handicap et leurs familles.
 			</p>
 			<div class='grid grid-cols-2 gap-8'>
 				<img src='photo-solution.png' alt='Solution photo' />

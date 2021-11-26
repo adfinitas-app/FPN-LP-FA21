@@ -22,7 +22,7 @@ export const grid_options = [
 		type: 'prejuge',
 		title: '<span class="relative">L</span>e handicap mental, c’est forcément de naissance.',
 		subtitle: 'Plus d’1 personne sur 10 accompagnée par Perce-Neige est handicapée suite à un accident, un traumatisme ou une maladie rare.',
-		testimonial: 'La vie de Pauline a basculé à l’âge de 6 ans, quand elle a été renversée par une moto sur la voie publique. Après plusieurs mois de coma, la petite fille se réveille enfin mais ses capacités mentales et motrices sont gravement altérées. Sa vie dite « ordinaire » s’est arrêtée, en décembre 1999.<br/>« Il est important de dire que ce qui s’est produit pour notre famille il y a plus de 20 ans peut hélas arriver à n’importe qui, n’importe quand » Isabelle, mère de Pauline.',
+		testimonial: 'La vie de Pauline a basculé à l’âge de 6 ans, quand elle a été renversée par une moto sur la voie publique. Après plusieurs mois de coma, la petite fille se réveille enfin mais ses capacités mentales et motrices sont gravement altérées. Sa vie dite « ordinaire » s’est arrêtée, en décembre 1999.<br/>« Il est important de dire que ce qui s’est produit pour notre famille il y a plus de 20 ans peut hélas arriver à n’importe qui, n’importe quand... » Isabelle, mère de Pauline.',
 		solution_title: 'Perce Neige apporte des solutions adaptées',
 		solution_text: 'Face au manque de structures, Perce-Neige créé différents types d’établissements médico-sociaux avec des accompagnements spécifiques, notamment pour les personnes avec autisme, les personnes handicapées psychiques ou physiques.',
 		precta_text: 'Grâce à votre soutien, nous pourrons offrir des solutions adaptées aux personnes handicapées, quel que soit l’origine de leur handicap.'

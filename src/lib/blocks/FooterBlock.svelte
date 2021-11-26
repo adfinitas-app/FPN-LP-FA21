@@ -8,7 +8,7 @@
 				</p>
 				<p class='mt-4 text-sm'>
 					Fondation reconnue d’utilité publique qui agit en faveur des enfants et adultes
-					touchés par une déficience mentale, un handicap physique ou psychique.<br />
+					touchés par une déficience mentale, un handicap physique, psychique ou l'autisme.<br />
 					Créée en 1966 à l’initiative de l’acteur Lino Ventura.
 				</p>
 			</div>
