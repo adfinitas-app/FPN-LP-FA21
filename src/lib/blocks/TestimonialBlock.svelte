@@ -8,7 +8,7 @@
 			<PlaceholderWithCorner>
 				<div>
 					<h2 class='text-4xl text-fpn-blue-dark font-extrabold text-center'>
-						<span>L</span>eur bonheur est notre récompense.
+						<span class='relative'>L</span>eur bonheur est notre récompense.
 					</h2>
 					<p class='text-right'>Lino Ventura</p>
 				</div>
@@ -48,3 +48,17 @@
 		</div>
 	</div>
 </section>
+
+<style>
+	h2 > span::before {
+			position: absolute;
+      content: ' ';
+      background-image: url("/icon-quote.svg");
+      background-size: 40px 40px;
+      width: 40px;
+			height: 40px;
+			z-index: -10;
+			top: -15px;
+			left: -25px;
+	}
+</style>

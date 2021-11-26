@@ -16,10 +16,8 @@
 						{:else}
 							<div class='h-full w-full flex flex-col space-between'>
 								<div class='bg-fpn-blue-dark py-2'>Préjugé {index}</div>
-								<div class='relative italic flex-grow flex justify-center items-center'>
-									<img class='absolute z-0 top-8 left-8 opacity-75' style='width: 40px' src='/icon-quote.svg'
-											 alt='Plus icon' />
-									<p class='relative mx-4'>{elem.title}</p>
+								<div class='relative italic flex-grow flex justify-center items-center px-4'>
+									<p class='with-quote z-10 mx-4'>{@html elem.title}</p>
 									<img class='absolute bottom-4 right-4 cursor-pointer' style='width: 30px;' src='/icon-plus.svg'
 											 alt='Plus icon'
 											 on:click={() => selected_grid = index} />
@@ -41,7 +39,7 @@
 					<div class='flex flex-col space-between justify-between h-full max-h-full'>
 						<div class='flex-shrink'>
 							<p class='italic text-xl'>Préjugé {index}</p>
-							<p class='italic text-xl'>{elem.title}</p>
+							<p class='italic text-xl'>{@html elem.title}</p>
 							<p class='mt-2 italic text-md'>{elem.subtitle}</p>
 						</div>
 						<div class='flex-1 bg-fpn-blue-dark overflow-y-auto my-4'>
@@ -75,7 +73,7 @@
 
 <style lang='postcss'>
     section > div:last-child > div {
-        &:before, &:after {
+        &::before, &::after {
             @apply border-fpn-orange;
             position: absolute;
             width: 40px;
@@ -84,9 +82,21 @@
             content: ' ';
         }
 
-        &:before {
+        &::before {
             @apply top-8 left-8;
             border-width: 10px 0 0 10px;
         }
+    }
+
+    .with-quote :global(> span::before) {
+        position: absolute;
+        content: ' ';
+        background-image: url("/icon-quote.svg");
+        background-size: 30px 30px;
+        width: 30px;
+        height: 30px;
+        z-index: -10;
+        top: -15px;
+        left: -20px;
     }
 </style>
