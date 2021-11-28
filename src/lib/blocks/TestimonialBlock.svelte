@@ -2,12 +2,12 @@
 	import PlaceholderWithCorner from '$lib/components/PlaceholderWithCorner.svelte';
 </script>
 
-<section class='relative max-w-6xl mx-auto py-16'>
-	<div class='mx-auto max-w-4xl grid grid-cols-2 gap-24'>
+<section class='relative max-w-6xl mx-auto py-8 md:py-16 px-5 md:px-0'>
+	<div class='mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-24'>
 		<div class='text-fpn-blue'>
 			<PlaceholderWithCorner>
 				<div>
-					<h2 class='text-3xl text-fpn-blue-dark font-extrabold text-center'>
+					<h2 class='text-2xl md:text-3xl text-fpn-blue-dark font-extrabold text-center'>
 						<span class='relative'>L</span>eur bonheur est notre récompense.
 					</h2>
 					<p class='text-right'>Lino Ventura</p>
@@ -31,7 +31,7 @@
 			<div class='w-full'>
 				<div class='relative w-full inline-block' data-aos='flip-down'>
 					<div class='mt-full'></div>
-					<div class='absolute -top-10 bottom-10 left-10 -right-10 bg-gray-200'
+					<div class='absolute -top-10 bottom-10 left-10 -right-10 bg-gray-200 hidden md:block'
 							 data-aos='zoom-in' data-aos-delay='400'></div>
 					<div class='absolute top-0 bottom-0 left-0 right-0 bg-fpn-blue p-5'>
 						<div class='relative h-full w-full'>

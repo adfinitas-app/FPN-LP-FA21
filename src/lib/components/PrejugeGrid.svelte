@@ -1,21 +1,32 @@
 <script>
 	import { fade } from 'svelte/transition';
 	import { grid_options } from '$lib/block-prejuge-config';
+	import { disableScroll, enableScroll } from '$lib/scrolling-utils';
 
 	let selected_grid = null;
+
+	function toggleSelectedGrid(index) {
+		if (selected_grid === index) {
+			enableScroll();
+			selected_grid = null;
+		} else {
+			disableScroll();
+			selected_grid = index;
+		}
+	}
 </script>
 
 <section class='relative'>
-	<div class='grid grid-cols-3 gap-8 text-white text-xl text-center'>
+	<div class='grid grid-cols-1 md:grid-cols-3 gap-8 text-white text-center'>
 		{#each grid_options as elem, index}
 			<div data-aos='flip-down' data-aos-easing='ease-in-out' data-aos-duration='500'>
 				<div class='relative w-full inline-block'>
 					<div class='mt-full'></div>
 					{#if index === 0}
-						<div class='absolute -top-6 bottom-6 -left-6 right-6 bg-gray-200'
+						<div class='absolute -top-6 bottom-6 -left-6 right-6 bg-gray-200 hidden md:block'
 								 data-aos='zoom-in' data-aos-delay='400'></div>
 					{:else if index === 5}
-						<div class='absolute top-6 -bottom-6 left-6 -right-6 bg-gray-200'
+						<div class='absolute top-6 -bottom-6 left-6 -right-6 bg-gray-200 hidden md:block'
 								 data-aos='zoom-in' data-aos-delay='400'></div>
 					{/if}
 					<div class='absolute top-0 bottom-0 left-0 right-0 bg-fpn-blue'>
@@ -23,14 +34,15 @@
 							<img src={elem.src} />
 						{:else}
 							<div class='h-full w-full flex flex-col space-between'>
-								<div class='bg-fpn-blue-dark py-2'>Préjugé {index}</div>
+								<div class='bg-fpn-blue-dark py-2 text-sm md:text-xl'>Préjugé {index}</div>
 								<div class='relative italic flex-grow flex justify-center items-center px-4'>
-									<p class='with-quote z-10 mx-4'>{@html elem.title}</p>
-									<img class='absolute bottom-4 right-4 cursor-pointer opacity-75 hover:opacity-100 hover:scale-125 transition-transform'
-											 style='width: 30px;'
-											 src='/icon-plus.svg'
-											 alt='Plus icon'
-											 on:click={() => selected_grid = index} />
+									<p class='with-quote z-10 mx-8 md:mx-4 text-xl'>{@html elem.title}</p>
+									<img
+										class='absolute z-10 bottom-4 right-4 cursor-pointer opacity-75 hover:opacity-100 hover:scale-125 transition-transform'
+										style='width: 30px;'
+										src='/icon-plus.svg'
+										alt='Plus icon'
+										on:click={toggleSelectedGrid.bind(null, index)} />
 								</div>
 							</div>
 						{/if}
@@ -41,19 +53,22 @@
 	</div>
 	<div>
 		{#each grid_options as elem, index}
-			{#if elem.type === 'prejuge' && selected_grid === index}
-				<div class='z-20 absolute top-0 w-full h-full bg-fpn-blue transition text-white p-12 pb-8'
-						 transition:fade={{duration: 150}}>
-					<img class='absolute top-6 right-6 cursor-pointer opacity-75 hover:opacity-100 hover:scale-125 transition-transform'
-							 style='width: 40px;' src='/icon-cross.svg' alt='Croix icon'
-							 on:click={() => selected_grid = null} />
+			{#if elem.type !== 'img'}
+				<div
+					class='grid-item-opened z-20 fixed md:absolute top-0 left-0 bottom-0 right-0 bg-fpn-blue transition text-white p-12 pb-8 mt-16 md:mt-0'
+					class:hidden={selected_grid !== index}
+					transition:fade={{duration: 150}}>
+					<img
+						class='absolute top-6 right-6 cursor-pointer opacity-75 hover:opacity-100 hover:scale-125 transition-transform'
+						style='width: 40px;' src='/icon-cross.svg' alt='Croix icon'
+						on:click={toggleSelectedGrid.bind(null, index)} />
 					<div class='flex flex-col space-between justify-between h-full max-h-full' data-aos='fade-in'>
 						<div class='flex-shrink'>
 							<p class='text-2xl text-fpn-orange font-extrabold'>{@html elem.title}</p>
 							<p class='mt-2 text-md'>{elem.subtitle}</p>
 						</div>
 						<div class='flex-1 bg-fpn-blue-dark overflow-y-auto my-4'>
-							<div class='p-4 flex flex-col gap-4 justify-center items-center h-full'>
+							<div class='p-4 flex flex-col gap-4 justify-center items-center'>
 								{#if elem.testimonial}
 									<div class=''>
 										<p class='text-sm'>{@html elem.testimonial}</p>

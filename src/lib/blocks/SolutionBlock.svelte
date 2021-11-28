@@ -3,20 +3,20 @@
 </script>
 
 <section class='max-w-6xl mx-auto'>
-	<div class='relative bg-gradient-to-t from-white to-gray-100'>
+	<div class='relative bg-gradient-to-t from-white to-gray-100 px-5 md:px-0'>
 		<div class='absolute top-0 bottom-0 left-0 right-0 bg-repeat-x bg-top opacity-50'
 				 style='background-image: url("/bg-pattern.png")'></div>
-		<div class='relative py-16 mx-auto max-w-4xl'>
+		<div class='relative py-8 md:py-16 mx-auto max-w-4xl'>
 			<PlaceholderWithCorner>
-				<h2 class='text-3xl text-fpn-blue-dark font-extrabold text-center'>
+				<h2 class='text-2xl md:text-3xl text-fpn-blue-dark font-extrabold text-center'>
 					30 jours pour redonner sourire et espérance !
 				</h2>
 			</PlaceholderWithCorner>
-			<p class='text-lg text-fpn-blue italic my-10 text-center mx-8'>
+			<p class='text-md md:text-lg text-fpn-blue italic my-10 text-center md:mx-8'>
 				Votre générosité nous permet d’agir concrètement pour aider les
 				personnes en situation de handicap et leurs familles.
 			</p>
-			<div class='grid grid-cols-2 gap-8'>
+			<div class='grid grid-cols-1 md:grid-cols-2 gap-8'>
 				<img src='photo-solution.png' alt='Solution photo' />
 				<div class='h-full flex flex-col justify-center text-fpn-blue text-md font-bold gap-4 overflow-hidden'>
 					<div data-aos='slide-left'>

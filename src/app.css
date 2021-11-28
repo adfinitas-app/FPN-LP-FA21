@@ -2,5 +2,6 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import "tailwindcss/screens";
 @import "./styles/fonts.css";
 @import "aos/dist/aos.css";

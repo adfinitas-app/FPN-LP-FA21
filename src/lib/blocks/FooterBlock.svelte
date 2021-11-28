@@ -1,6 +1,6 @@
-<section class='max-w-6xl mx-auto pt-6 pb-4 bg-fpn-blue text-white'>
+<section class='max-w-6xl mx-auto pt-6 pb-4 bg-fpn-blue text-white px-5 md:px-0'>
 	<div class='mx-auto max-w-4xl'>
-		<div class='grid grid-cols-2 gap-24'>
+		<div class='grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-24'>
 			<div>
 				<p class='text-4xl text-white font-extrabold'>
 					Perce<br />
@@ -13,7 +13,7 @@
 				</p>
 			</div>
 			<div class=''>
-				<div class='flex justify-between items-center'>
+				<div class='flex flex-col md:flex-row gap-2 md:gap-0 justify-between items-center'>
 					<p>Suivez-nous</p>
 					<ul>
 						<li class='inline-block mr-1 transition-transform hover:scale-110 cursor-pointer'>
@@ -43,15 +43,15 @@
 						</li>
 					</ul>
 				</div>
-				<div class='mt-10'>
+				<div class='mt-4 md:mt-10'>
 					<img class='mx-auto' style='width: 90px;' src='icon-don_en_confiance.png' />
 				</div>
 			</div>
 		</div>
-		<ul class='text-xs text-center mt-12'>
-			<li class='inline-block mr-2'>Perce-Neige 2021</li>
-			<li class='inline-block mx-2'>Mentions légales</li>
-			<li class='inline-block ml-2'>Gestion des cookies</li>
+		<ul class='text-xs text-center mt-8 md:mt-12'>
+			<li class='md:inline-block md:mr-2 mb-1 md:my-0'>Perce-Neige 2021</li>
+			<li class='md:inline-block md:mx-2 my-1 md:my-0'>Mentions légales</li>
+			<li class='md:inline-block md:ml-2 mt-1 md:my-0'>Gestion des cookies</li>
 		</ul>
 	</div>
 </section>
