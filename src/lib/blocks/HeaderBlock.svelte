@@ -7,14 +7,17 @@
 		<img class='max-w-lg w-full md:w-auto self-bottom absolute bottom-0 opacity-25 md:static md:opacity-100 md:visible' src='/photo-header.png' alt='Image' />
 		<div class='max-w-2xl self-center text-white text-center my-8 md:my-14 px-5 md:px-0'>
 			<PlaceholderWithCorner>
-				<h1 class='text-4xl font-extrabold'>
-					<span class='text-5xl'>30 jours</span> pour faire
-					place aux personnes
-					en situation de handicap
-				</h1>
+				<div data-aos='zoom-in' data-aos-duration='1000'>
+					<h1 class='text-4xl font-extrabold'>
+						<span class='text-5xl'>30 jours</span> pour faire
+						place aux personnes
+						en situation de handicap
+					</h1>
+				</div>
 			</PlaceholderWithCorner>
 			<p class='relative text-md italic mt-10'
 				 data-aos='fade-in'
+				 data-aos-delay='1000'
 				 data-aos-easing='ease-in-out'>
 				Les préjugés sont les premiers obstacles qui empêchent les personnes
 				en situation de handicap mental d’être pleinement respectées,

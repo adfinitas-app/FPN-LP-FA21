@@ -13,7 +13,7 @@
 					<p class='text-right'>Lino Ventura</p>
 				</div>
 			</PlaceholderWithCorner>
-			<p class='text-sm italic pt-6 text-justify' data-aos='fade-in'>
+			<p class='text-sm pt-6 text-justify' data-aos='fade-in'>
 				La Fondation Perce-Neige mène un combat initié il y a plus 55 ans par Lino Ventura,
 				pour que les personnes handicapées trouvent leur place dans la société et soient reconnues
 				en tant qu’individus à part entière. Pour cela, la Fondation accueille et accompagne,
