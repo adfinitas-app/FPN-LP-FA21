@@ -13,7 +13,7 @@
 		<img class='relative top-0 w-full h-full opacity-75' src='photo-video.png' alt='Photo de la video' />
 		<div class='absolute top-0 w-full h-full opacity-50 bg-white'></div>
 		<div class='absolute top-0 bottom-0 left-0 right-0 flex justify-center items-center' on:click={start_video}>
-			<a class='absolute opacity-80 transition-transform hover:scale-125 hover:opacity-100 cursor-pointer'>
+			<a href='#' class='absolute opacity-80 transition-transform hover:scale-125 hover:opacity-100 cursor-pointer'>
 				<img style='width: 90px;' src='./icon-play.svg' alt='icone de lancement de video' />
 			</a>
 			<p class='relative top-20 uppercase text-2xl text-white font-extrabold cursor-pointer'>

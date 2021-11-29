@@ -1,10 +1,15 @@
 import { browser } from '$app/env';
 
-export function passQueryParamsToLink(base) {
+export function passUtmParamsToLink(base) {
 	const url = new URL(base);
 	if (browser) {
 		const params = new URLSearchParams(window.location.search);
-		params.forEach((value, key) => url.searchParams.set(key, value));
+		params
+			.forEach((value, key) => {
+				if (key === 'utm_campaign' || key === 'utm_source' || key === 'utm_medium' || key === 'reserved_code_media') {
+					url.searchParams.set(key, value);
+				}
+			});
 	}
 	return url.href;
 }

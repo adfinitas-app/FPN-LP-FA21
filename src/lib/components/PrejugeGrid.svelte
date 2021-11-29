@@ -2,6 +2,8 @@
 	import { fade } from 'svelte/transition';
 	import { grid_options } from '$lib/block-prejuge-config';
 	import { disableScroll, enableScroll } from '$lib/scrolling-utils';
+	import { browser } from '$app/env';
+	import { links, passUtmParamsToLink } from '$lib/links-utils';
 
 	let selected_grid = null;
 
@@ -83,7 +85,8 @@
 						<div class='flex-shrink' data-aos='slide-up'>
 							<p class='text-md'>{elem.precta_text}</p>
 							<div class='group mt-4 text-center transition-transform hover:scale-110'>
-								<a class='text-lg uppercase p-4 bg-fpn-orange text-white text-sm font-bold cursor-pointer'>
+								<a href={browser ? passUtmParamsToLink(links['prejuge']) : links['prejuge'] } target='_blank'
+									 class='text-lg uppercase p-4 bg-fpn-orange text-white text-sm font-bold cursor-pointer'>
 									<img class='inline-block h-6 pr-3' src='./icon-donner.svg' alt='donner logo' />
 									Faire un don
 								</a>
