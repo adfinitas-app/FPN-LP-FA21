@@ -19,9 +19,7 @@
 	<div class='bg-fpn-blue-dark max-w-6xl mx-auto'>
 		<div id='navbar' class='max-w-5xl mx-auto flex justify-between px-5 md:px-0'>
 			<div id='logo' class='extended bg-white transition-size' bind:this={logo}>
-				<a href={links['logo']} target='_blank'>
-					<img class='py-2 mx-auto w-auto h-full' src='/prejuges/logo.png' alt='FPN Logo' />
-				</a>
+				<img class='py-2 mx-auto w-auto h-full' src='/prejuges/logo.png' alt='FPN Logo' />
 			</div>
 			<div class='self-center'>
 				<div class='transition-transform hover:scale-110 cursor-pointer p-2 bg-fpn-orange md:p-5'>

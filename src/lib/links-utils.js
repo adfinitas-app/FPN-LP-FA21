@@ -15,7 +15,6 @@ export function passUtmParamsToLink(base) {
 }
 
 export const links = {
-	'logo': 'https://www.perce-neige.org/',
 	'header': 'https://donner.perce-neige.org/b?cid=71&utm_campaign=FA21&utm_source=PH1&utm_medium=organic&reserved_code_media=FA21PH',
 	'prejuge': 'https://donner.perce-neige.org/b?cid=71&utm_campaign=FA21&utm_source=PH1&utm_medium=organic&reserved_code_media=FA21PH',
 	'donner_66': 'https://donner.perce-neige.org/b?cid=71&utm_campaign=FA21&utm_source=PH1&utm_medium=organic&reserved_code_media=FA21PH',
