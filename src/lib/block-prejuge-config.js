@@ -23,7 +23,7 @@ export const grid_options = [
 		title: '<span class="relative">L</span>e handicap mental, c’est forcément de naissance.',
 		subtitle: 'Plus d’1 personne sur 10 accompagnée par Perce-Neige est handicapée suite à un accident, un traumatisme ou une maladie rare.',
 		testimonial: 'La vie de Pauline a basculé à l’âge de 6 ans, quand elle a été renversée par une moto sur la voie publique. Après plusieurs mois de coma, la petite fille se réveille enfin mais ses capacités mentales et motrices sont gravement altérées. Sa vie dite « ordinaire » s’est arrêtée, en décembre 1999.<br/>« Il est important de dire que ce qui s’est produit pour notre famille il y a plus de 20 ans peut hélas arriver à n’importe qui, n’importe quand... » Isabelle, mère de Pauline.',
-		solution_title: 'Perce Neige apporte des solutions adaptées',
+		solution_title: 'Perce-Neige apporte des solutions adaptées',
 		solution_text: 'Face au manque de structures, Perce-Neige créé différents types d’établissements médico-sociaux avec des accompagnements spécifiques, notamment pour les personnes avec autisme, les personnes handicapées psychiques ou physiques.',
 		precta_text: 'Grâce à votre soutien, nous pourrons offrir des solutions adaptées aux personnes handicapées, quel que soit l’origine de leur handicap.'
 	},
@@ -49,7 +49,7 @@ export const grid_options = [
 		subtitle: 'Plus de 40 000 personnes handicapées sont toujours sans solution d’accueil en France.',
 		solution_title: 'Les actions de Perce-Neige pour aider les familles en souffrance',
 		solution_text: 'Perce-Neige accompagne au quotidien près de 1200 résidents et gère autant de demandes en liste d’attente !<br/><br/>Au sein de Perce-Neige, une cellule d’aide aux familles en difficulté assure une permanence téléphonique pour les conseiller et leur apporter notre expertise. Les familles peuvent également avoir recours en Ile-de-France et dans le Vaucluse aux services d’équipes mobiles qui interviennent en support à leur domicile et bénéficier, le cas échéant, d’accueil en demi-journées dans les Maisons Perce-Neige de proximité. Enfin, le programme « Classes Soleil » en maternelle, soutenu par Perce-Neige, offre aux enfants autistes « non-verbaux » la possibilité de suivre un enseignement adapté à leur handicap et de rejoindre par la suite une classe élémentaire ordinaire.',
-		precta_text: 'Votre générosité est indispensable pour répondre aux besoins de milliers de personnes sans solution d’accueil adaptée. Merci d’avance pour votre don !'
+		precta_text: 'Votre générosité est indispensable pour répondre aux besoins de milliers de personnes sans solution d’accueil adapté. Merci d’avance pour votre don !'
 	},
 	{
 		type: 'img',
