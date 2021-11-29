@@ -18,7 +18,7 @@
 					<ul>
 						<li class='inline-block mr-1 transition-transform hover:scale-110 cursor-pointer'>
 							<a>
-								<img style='width: 40px;' src='/icon-facebook.svg' alt='icone facebook' />
+								<img style='width: 40px;' src='./icon-facebook.svg' alt='icone facebook' />
 							</a>
 						</li>
 						<li class='inline-block mx-1 transition-transform hover:scale-110 cursor-pointer'>

@@ -40,7 +40,7 @@
 									<img
 										class='absolute z-10 bottom-4 right-4 cursor-pointer opacity-75 hover:opacity-100 hover:scale-125 transition-transform'
 										style='width: 30px;'
-										src='/icon-plus.svg'
+										src='./icon-plus.svg'
 										alt='Plus icon'
 										on:click={toggleSelectedGrid.bind(null, index)} />
 								</div>
