@@ -5,7 +5,7 @@
 <section class='max-w-6xl mx-auto'>
 	<div class='relative bg-gradient-to-t from-white to-gray-100 px-5 md:px-0'>
 		<div class='absolute top-0 bottom-0 left-0 right-0 bg-repeat-x bg-top opacity-50'
-				 style='background-image: url("/bg-pattern.png")'></div>
+				 style='background-image: url("./bg-pattern.png")'></div>
 		<div class='relative py-8 md:py-16 mx-auto max-w-4xl'>
 			<PlaceholderWithCorner>
 				<h2 class='text-2xl md:text-3xl text-fpn-blue-dark font-extrabold text-center'>
@@ -21,7 +21,7 @@
 				<div class='h-full flex flex-col justify-center text-fpn-blue text-md font-bold gap-4 overflow-hidden'>
 					<div data-aos='slide-left'>
 						<div class='flex' data-aos='fade-in' data-aos-easing='easing-out' data-aos-duration='750'>
-							<img src='/icon-arrow.svg' style='width: 30px;' alt='icone de fleche' />
+							<img src='./icon-arrow.svg' style='width: 30px;' alt='icone de fleche' />
 							<p class='ml-4'>
 								Accueillir et accompagner des personnes handicapées au sein de nos structures adaptées.
 							</p>
@@ -29,19 +29,19 @@
 					</div>
 					<div data-aos='slide-left'>
 						<div class='flex' data-aos='fade-in' data-aos-easing='easing-out' data-aos-duration='750'>
-							<img src='/icon-arrow.svg' style='width: 30px;' alt='icone de fleche' />
+							<img src='./icon-arrow.svg' style='width: 30px;' alt='icone de fleche' />
 							<p class='ml-4'>Conseiller, soutenir les familles confrontées à l’isolement.</p>
 						</div>
 					</div>
 					<div data-aos='slide-left'>
 						<div class='flex' data-aos='fade-in' data-aos-easing='easing-out' data-aos-duration='750'>
-							<img src='/icon-arrow.svg' style='width: 30px;' alt='icone de fleche' />
+							<img src='./icon-arrow.svg' style='width: 30px;' alt='icone de fleche' />
 							<p class='ml-4'>Sensibiliser le grand public aux enjeux liés au handicap.</p>
 						</div>
 					</div>
 					<div data-aos='slide-left'>
 						<div class='flex' data-aos='fade-in' data-aos-easing='easing-out' data-aos-duration='750'>
-							<img src='/icon-arrow.svg' style='width: 30px;' alt='icone de fleche' />
+							<img src='./icon-arrow.svg' style='width: 30px;' alt='icone de fleche' />
 							<p class='ml-4'>
 								Développer des offres innovantes qui s’adaptent aux besoins spécifiques des personnes handicapées.
 							</p>

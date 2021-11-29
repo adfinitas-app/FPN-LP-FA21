@@ -16,7 +16,7 @@ export const tab_options = [
 export const grid_options = [
 	{
 		type: 'img',
-		src: '/photo-prejuge-2.png'
+		src: './photo-prejuge-2.png'
 	},
 	{
 		type: 'prejuge',
@@ -53,6 +53,6 @@ export const grid_options = [
 	},
 	{
 		type: 'img',
-		src: '/photo-prejuge-3.png'
+		src: './photo-prejuge-3.png'
 	}
 ];

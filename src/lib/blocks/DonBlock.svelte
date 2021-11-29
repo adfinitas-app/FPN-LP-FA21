@@ -27,7 +27,7 @@
 				<div class='mt-8 md:mt-14' data-aos='slide-up'>
 					<div class='cursor-pointer transition-transform hover:scale-110'>
 						<a class='text-lg uppercase p-4 bg-fpn-orange text-white text-sm font-bold'>
-							<img class='inline-block h-6 pr-3' src='/icon-donner.svg' alt='donner logo' />
+							<img class='inline-block h-6 pr-3' src='./icon-donner.svg' alt='donner logo' />
 							Je donne
 						</a>
 					</div>
@@ -45,7 +45,7 @@
 				<div class='mt-8 md:mt-14' data-aos='slide-up'>
 					<div class='cursor-pointer transition-transform hover:scale-110'>
 						<a class='text-lg uppercase p-4 bg-fpn-orange text-white text-sm font-bold'>
-							<img class='inline-block h-6 pr-3' src='/icon-donner.svg' alt='donner logo' />
+							<img class='inline-block h-6 pr-3' src='./icon-donner.svg' alt='donner logo' />
 							Je donne
 						</a>
 					</div>
