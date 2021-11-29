@@ -1,5 +1,6 @@
 <script>
 	import PlaceholderWithCorner from '$lib/components/PlaceholderWithCorner.svelte';
+	import Video from '$lib/components/Video.svelte';
 </script>
 
 <section class='relative max-w-6xl mx-auto py-8 md:py-16 px-5 md:px-0'>
@@ -34,18 +35,7 @@
 					<div class='absolute -top-10 bottom-10 left-10 -right-10 bg-gray-200 hidden md:block'
 							 data-aos='zoom-in' data-aos-delay='400'></div>
 					<div class='absolute top-0 bottom-0 left-0 right-0 bg-fpn-blue p-5'>
-						<div class='relative h-full w-full'>
-							<img class='relative top-0 w-full h-full opacity-75' src='photo-video.png' alt='Photo de la video' />
-							<div class='absolute top-0 w-full h-full opacity-50 bg-white'></div>
-							<div class='absolute top-0 bottom-0 left-0 right-0 flex justify-center items-center'>
-								<a class='absolute opacity-80 transition-transform hover:scale-125 hover:opacity-100 cursor-pointer'>
-									<img style='width: 90px;' src='./icon-play.svg' alt='icone de lancement de video' />
-								</a>
-								<p class='relative top-20 uppercase text-2xl text-white font-extrabold'>
-									Voir la video
-								</p>
-							</div>
-						</div>
+						<Video />
 					</div>
 				</div>
 			</div>
