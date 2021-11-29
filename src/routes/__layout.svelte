@@ -23,14 +23,14 @@
 		j.async = true;
 		j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
 		f.parentNode.insertBefore(j, f);
-	})(window, document, 'script', 'dataLayer', 'GTM-WQ2RDH6');
+	})(window, document, 'script', 'dataLayer', 'GTM-KJ24B2L');
 	</script>
 	<!-- End Google Tag Manager -->
 </svelte:head>
 
 <!-- Google Tag Manager (noscript) -->
 <noscript>
-	<iframe src='https://www.googletagmanager.com/ns.html?id=GTM-WQ2RDH6'
+	<iframe src='https://www.googletagmanager.com/ns.html?id=GTM-KJ24B2L'
 					height='0' width='0' style='display:none;visibility:hidden'></iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
