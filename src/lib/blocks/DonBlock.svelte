@@ -30,7 +30,7 @@
 					<div class='cursor-pointer transition-transform hover:scale-110'>
 						<a href={browser ? passUtmParamsToLink(links['donner_66']) : links['donner_66'] } target='_blank'
 							 class='text-lg uppercase p-4 bg-fpn-orange text-white text-sm font-bold'>
-							<img class='inline-block h-6 pr-3' src='./icon-donner.svg' alt='donner logo' />
+							<img class='inline-block h-6 pr-3' src='/prejuges/icon-donner.svg' alt='donner logo' />
 							Je donne
 						</a>
 					</div>
@@ -49,7 +49,7 @@
 					<div class='cursor-pointer transition-transform hover:scale-110'>
 						<a href={browser ? passUtmParamsToLink(links['donner_75']) : links['donner_75'] } target='_blank'
 							 class='text-lg uppercase p-4 bg-fpn-orange text-white text-sm font-bold'>
-							<img class='inline-block h-6 pr-3' src='./icon-donner.svg' alt='donner logo' />
+							<img class='inline-block h-6 pr-3' src='/prejuges/icon-donner.svg' alt='donner logo' />
 							Je donne
 						</a>
 					</div>

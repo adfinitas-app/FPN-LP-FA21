@@ -47,7 +47,7 @@
     h2 > span::before {
         position: absolute;
         content: ' ';
-        background-image: url("./icon-quote.svg");
+        background-image: url("/prejuges/icon-quote.svg");
         background-size: 40px 40px;
         width: 40px;
         height: 40px;

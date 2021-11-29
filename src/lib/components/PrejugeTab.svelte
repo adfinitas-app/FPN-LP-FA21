@@ -19,7 +19,7 @@
 		{/each}
 	</div>
 	<div class='flex-grow flex justify-center items-center p-4 md:px-16'>
-		<img src='./icon-info.png' alt='Information icon' style='width: 35px;' />
+		<img src='/prejuges/icon-info.png' alt='Information icon' style='width: 35px;' />
 		<div class='text-md md:text-lg pl-4 md:pl-14'>
 			{#each tab_options as elem, index}
 				<p class:hidden={selected_tab !== index}>{elem.text}</p>
