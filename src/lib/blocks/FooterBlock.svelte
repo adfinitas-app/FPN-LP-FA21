@@ -1,3 +1,8 @@
+<script>
+	import { browser } from '$app/env';
+	import { links, passQueryParamsToLink } from '$lib/links-utils';
+</script>
+
 <section class='max-w-6xl mx-auto pt-6 pb-4 bg-fpn-blue text-white px-5 md:px-0'>
 	<div class='mx-auto max-w-4xl'>
 		<div class='grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-24'>
@@ -17,27 +22,27 @@
 					<p>Suivez-nous</p>
 					<ul>
 						<li class='inline-block mr-1 transition-transform hover:scale-110 cursor-pointer'>
-							<a>
+							<a href={browser ? passQueryParamsToLink(links['facebook']) : links['facebook'] } target='_blank'>
 								<img style='width: 40px;' src='./icon-facebook.svg' alt='icone facebook' />
 							</a>
 						</li>
 						<li class='inline-block mx-1 transition-transform hover:scale-110 cursor-pointer'>
-							<a>
+							<a href={browser ? passQueryParamsToLink(links['twitter']) : links['twitter'] } target='_blank'>
 								<img style='width: 40px;' src='./icon-twitter.svg' alt='icone twitter' />
 							</a>
 						</li>
 						<li class='inline-block mx-1 transition-transform hover:scale-110 cursor-pointer'>
-							<a>
+							<a href={browser ? passQueryParamsToLink(links['youtube']) : links['youtube'] } target='_blank'>
 								<img style='width: 40px;' src='./icon-youtube.svg' alt='icone youtube' />
 							</a>
 						</li>
 						<li class='inline-block mx-1 transition-transform hover:scale-110 cursor-pointer'>
-							<a>
+							<a href={browser ? passQueryParamsToLink(links['instagram']) : links['instagram'] } target='_blank'>
 								<img style='width: 40px;' src='./icon-instagram.svg' alt='icone instagram' />
 							</a>
 						</li>
 						<li class='inline-block ml-1 transition-transform hover:scale-110 cursor-pointer'>
-							<a>
+							<a href={browser ? passQueryParamsToLink(links['linkedin']) : links['linkedin'] } target='_blank'>
 								<img style='width: 40px;' src='./icon-linkedin.svg' alt='icone linkedin' />
 							</a>
 						</li>
@@ -49,9 +54,21 @@
 			</div>
 		</div>
 		<ul class='text-xs text-center mt-8 md:mt-12'>
-			<li class='md:inline-block md:mr-2 mb-1 md:my-0'>Perce-Neige 2021</li>
-			<li class='md:inline-block md:mx-2 my-1 md:my-0'>Mentions légales</li>
-			<li class='md:inline-block md:ml-2 mt-1 md:my-0'>Gestion des cookies</li>
+			<li class='md:inline-block md:mr-2 mb-1 md:my-0'>
+				Perce-Neige {(new Date()).getFullYear()}
+			</li>
+			<li class='md:inline-block md:mx-2 my-1 md:my-0'>
+				<a href={browser ? passQueryParamsToLink(links['mentions_legales']) : links['mentions_legales'] }
+					 target='_blank'>
+					Mentions légales
+				</a>
+			</li>
+			<li class='md:inline-block md:ml-2 mt-1 md:my-0'>
+				<a href={browser ? passQueryParamsToLink(links['gestion_des_cookies']) : links['gestion_des_cookies'] }
+					 target='_blank'>
+					Gestion des cookies
+				</a>
+			</li>
 		</ul>
 	</div>
 </section>

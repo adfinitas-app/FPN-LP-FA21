@@ -1,5 +1,7 @@
 <script>
 	import PlaceholderWithCorner from '$lib/components/PlaceholderWithCorner.svelte';
+	import { browser } from '$app/env';
+	import { links, passQueryParamsToLink } from '$lib/links-utils';
 </script>
 
 <section class='relative max-w-6xl mx-auto bg-fpn-blue-dark py-8 md:py-16 md:pb-0 md:mb-16'>
@@ -26,7 +28,8 @@
 				</div>
 				<div class='mt-8 md:mt-14' data-aos='slide-up'>
 					<div class='cursor-pointer transition-transform hover:scale-110'>
-						<a class='text-lg uppercase p-4 bg-fpn-orange text-white text-sm font-bold'>
+						<a href={browser ? passQueryParamsToLink(links['donner_66']) : links['donner_66'] } target='_blank'
+							 class='text-lg uppercase p-4 bg-fpn-orange text-white text-sm font-bold'>
 							<img class='inline-block h-6 pr-3' src='./icon-donner.svg' alt='donner logo' />
 							Je donne
 						</a>
@@ -44,7 +47,8 @@
 				</div>
 				<div class='mt-8 md:mt-14' data-aos='slide-up'>
 					<div class='cursor-pointer transition-transform hover:scale-110'>
-						<a class='text-lg uppercase p-4 bg-fpn-orange text-white text-sm font-bold'>
+						<a href={browser ? passQueryParamsToLink(links['donner_75']) : links['donner_75'] } target='_blank'
+							 class='text-lg uppercase p-4 bg-fpn-orange text-white text-sm font-bold'>
 							<img class='inline-block h-6 pr-3' src='./icon-donner.svg' alt='donner logo' />
 							Je donne
 						</a>
