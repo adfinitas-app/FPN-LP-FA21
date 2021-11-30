@@ -3,8 +3,8 @@
 	import Video from '$lib/components/Video.svelte';
 </script>
 
-<section class='relative max-w-6xl mx-auto py-8 md:py-16 px-5 md:px-0'>
-	<div class='mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-24' id="video">
+<section class='relative max-w-6xl mx-auto py-8 md:py-16 px-5 md:px-0' id="video">
+	<div class='mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-24'>
 		<div class='text-fpn-blue'>
 			<PlaceholderWithCorner>
 				<div>
