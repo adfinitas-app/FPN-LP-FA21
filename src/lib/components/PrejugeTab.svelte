@@ -12,8 +12,9 @@
 					 on:click={() => selected_tab = index}>
 				<div>
 					{elem.percentage}<span class='pl-2 text-xl'>%</span>
+					<p class='text-xs mt-1'>des personnes interrogées</p>
 				</div>
-				<div class='border-b-4 md:border-b-8 w-12 md:w-20 mt-2 md:mt-6 mx-auto group-hover:border-fpn-orange transition-colors'
+				<div class='border-b-4 md:border-b-8 w-12 md:w-20 mt-1 md:mt-4 mx-auto group-hover:border-fpn-orange transition-colors'
 						 class:border-fpn-orange={selected_tab === index}></div>
 			</div>
 		{/each}

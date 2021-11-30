@@ -15,7 +15,7 @@
 				</div>
 			</PlaceholderWithCorner>
 			<p class='text-sm pt-6 text-justify' data-aos='fade-in'>
-				La Fondation Perce-Neige mène un combat initié il y a plus 55 ans par Lino Ventura,
+				La Fondation Perce-Neige mène un combat initié il y a plus de 55 ans par Lino Ventura,
 				pour que les personnes handicapées trouvent leur place dans la société et soient reconnues
 				en tant qu’individus à part entière. Pour cela, la Fondation accueille et accompagne,
 				de façon adaptée, les enfants et les adultes touchés par une déficience mentale,
