@@ -15,10 +15,10 @@ export function passUtmParamsToLink(base) {
 }
 
 export const links = {
-	'header': 'https://donner.perce-neige.org/b?cid=71&utm_campaign=FA21&utm_source=PH1&utm_medium=organic&reserved_code_media=FA21PH',
-	'prejuge': 'https://donner.perce-neige.org/b?cid=71&utm_campaign=FA21&utm_source=PH1&utm_medium=organic&reserved_code_media=FA21PH',
-	'donner_66': 'https://donner.perce-neige.org/b?cid=71&utm_campaign=FA21&utm_source=PH1&utm_medium=organic&reserved_code_media=FA21PH',
-	'donner_75': 'https://donner.perce-neige.org/b?cid=72&utm_campaign=FA21&utm_source=PH1&utm_medium=organic&reserved_code_media=FA21PH',
+	'header': 'https://donner.perce-neige.org/b?cid=71&utm_campaign=FA21&utm_source=LP&utm_medium=organic',
+	'prejuge': 'https://donner.perce-neige.org/b?cid=71&utm_campaign=FA21&utm_source=LP&utm_medium=organic',
+	'donner_66': 'https://donner.perce-neige.org/b?cid=71&utm_campaign=FA21&utm_source=LP&utm_medium=organic',
+	'donner_75': 'https://donner.perce-neige.org/b?cid=72&utm_campaign=FA21&utm_source=LP&utm_medium=organic',
 	'facebook': 'https://www.facebook.com/associationperceneige/',
 	'twitter': 'https://twitter.com/PerceNeigeinfos/',
 	'youtube': 'https://www.youtube.com/playlist?list=PL52013EC3213402EE',
