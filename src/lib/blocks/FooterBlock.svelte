@@ -48,7 +48,9 @@
 					</ul>
 				</div>
 				<div class='mt-4 md:mt-10'>
-					<img class='mx-auto' style='width: 90px;' src='/prejuges/icon-don_en_confiance.png' />
+					<a href="https://www.donenconfiance.org" target='_blank'>
+					  <img class='mx-auto' style='width: 90px;' src='/prejuges/icon-don_en_confiance.png' />
+					</a>
 				</div>
 			</div>
 		</div>
