@@ -7,7 +7,7 @@
 	<div class='mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-24'>
 		<div class='text-fpn-blue'>
 			<PlaceholderWithCorner>
-				<div>
+				<div id="video">
 					<h2 class='text-2xl md:text-3xl text-fpn-blue-dark font-extrabold text-center'>
 						<span class='relative'>L</span>eur bonheur est notre récompense.
 					</h2>
