@@ -22,13 +22,11 @@
 				<img class='py-2 mx-auto w-auto h-full' src='/prejuges/logo.png' alt='FPN Logo' />
 			</div>
 			<div class='self-center'>
-				<div class='transition-transform hover:scale-110 cursor-pointer p-2 bg-fpn-orange md:p-5'>
-					<a href={browser ? passUtmParamsToLink(links['header']) : links['header']} target='_blank'
-						 class='uppercase text-white text-xs md:text-sm font-bold'>
-						<img class='inline-block h-5 md:h-6 pr-1 md:pr-3' src='/prejuges/icon-donner.svg' alt='donner logo' />
-						Faire un don
-					</a>
-				</div>
+				<a href={browser ? passUtmParamsToLink(links['header']) : links['header']} target='_blank'
+					 class='transition-transform hover:scale-110 cursor-pointer p-2 bg-fpn-orange md:p-5 uppercase text-white text-xs md:text-sm font-bold'>
+					<img class='inline-block h-5 md:h-6 pr-1 md:pr-3' src='/prejuges/icon-donner.svg' alt='donner logo' />
+					Faire un don
+				</a>
 			</div>
 		</div>
 	</div>
