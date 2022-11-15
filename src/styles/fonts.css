@@ -1,27 +1,27 @@
 @font-face {
     font-family: "Museo";
-    src: url("/prejuges/museosans-500-webfont.ttf") format("truetype");
+    src: url("/idees-recues/museosans-500-webfont.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Museo";
     font-weight: 500;
     font-style: normal;
-    src: url("/prejuges/museosans-500-webfont.ttf") format("truetype");
+    src: url("/idees-recues/museosans-500-webfont.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Museo";
     font-weight: 700;
     font-style: normal;
-    src: url("/prejuges/museosans-700-webfont.ttf") format("truetype");
+    src: url("/idees-recues/museosans-700-webfont.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Museo";
     font-weight: 700;
     font-style: italic;
-    src: url("/prejuges/museosans-700italic-webfont.ttf") format("truetype");
+    src: url("/idees-recues/museosans-700italic-webfont.ttf") format("truetype");
 }
 
 @font-face {
