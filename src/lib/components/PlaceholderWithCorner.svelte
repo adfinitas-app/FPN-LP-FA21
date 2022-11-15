@@ -8,7 +8,7 @@
     }
 
     div:before, div:after {
-        @apply border-fpn-orange;
+        @apply border-fpn-pink;
         position: absolute;
         width: 40px;
         height: 40px;

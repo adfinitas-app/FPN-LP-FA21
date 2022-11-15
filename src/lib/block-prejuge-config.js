@@ -1,22 +1,22 @@
 export const tab_options = [
 	{
 		percentage: 30,
-		text: 'pensent qu’une personne handicapée mentale ne peut pas être autonome.'
+		text: '30% pensent qu’une personne handicapée mentale ne peut pas être autonome.'
 	},
 	{
 		percentage: 23,
-		text: 'assurent qu’un enfant handicapé mental ne peut pas être scolarisé avec les autres enfants.'
+		text: '23% assurent qu’un enfant handicapé mental ne peut pas être scolarisé avec les autres enfants.'
 	},
 	{
 		percentage: 17,
-		text: 'disent que les personnes handicapées ne peuvent pas exercer une activité professionnelle.'
+		text: '17% disent que les personnes handicapées ne peuvent pas exercer une activité professionnelle.'
 	}
 ];
 
 export const grid_options = [
 	{
 		type: 'img',
-		src: '/prejuges/photo-prejuge-2.png'
+		src: '/photo-prejuge-2.jpg'
 	},
 	{
 		type: 'prejuge',
@@ -53,6 +53,6 @@ export const grid_options = [
 	},
 	{
 		type: 'img',
-		src: '/prejuges/photo-prejuge-3.png'
+		src: '/photo-prejuge-3.jpg'
 	}
 ];
