@@ -36,13 +36,13 @@
 							<img src={elem.src} />
 						{:else}
 							<div class='h-full w-full flex flex-col space-between'>
-								<div class='bg-fpn-blue-dark py-2 text-sm md:text-xl'>Préjugé {index}</div>
-								<div class='relative italic flex-grow flex justify-center items-center px-4'>
-									<p class='with-quote z-10 mx-8 md:mx-4 text-xl'>{@html elem.title}</p>
+								<div class='bg-fpn-blue py-3 italic font-black text-sm md:text-xl'>Idée reçue {index}</div>
+								<div class='relative bg-fpn-blue-light italic flex-grow flex justify-center items-center px-4'>
+									<p class='with-quote z-10 font-black italic mx-8 md:mx-4 text-xl'>{@html elem.title}</p>
 									<img
 										class='absolute z-10 bottom-4 right-4 cursor-pointer opacity-75 hover:opacity-100 hover:scale-125 transition-transform'
 										style='width: 30px;'
-										src='/prejuges/icon-plus.svg'
+										src='/icon-plus.svg'
 										alt='Plus icon'
 										on:click={toggleSelectedGrid.bind(null, index)} />
 								</div>
@@ -57,19 +57,19 @@
 		{#each grid_options as elem, index}
 			{#if elem.type !== 'img'}
 				<div
-					class='grid-item-opened z-20 fixed md:absolute top-0 left-0 bottom-0 right-0 bg-fpn-blue transition text-white p-12 pb-8 mt-16 md:mt-0'
+					class='grid-item-opened z-20 fixed md:absolute top-0 left-0 bottom-0 right-0 bg-fpn-blue-light transition text-white p-12 pb-8 mt-16 md:mt-0'
 					class:hidden={selected_grid !== index}
 					transition:fade={{duration: 150}}>
 					<img
 						class='absolute top-6 right-6 cursor-pointer opacity-75 hover:opacity-100 hover:scale-125 transition-transform'
-						style='width: 40px;' src='/prejuges/icon-cross.svg' alt='Croix icon'
+						style='width: 40px;' src='/icon-cross.svg' alt='Croix icon'
 						on:click={toggleSelectedGrid.bind(null, index)} />
 					<div class='flex flex-col space-between justify-between h-full max-h-full' data-aos='fade-in'>
 						<div class='flex-shrink'>
-							<p class='text-2xl text-fpn-orange font-extrabold'>{@html elem.title}</p>
+							<p class='text-2xl text-fpn-pink font-extrabold'>{@html elem.title}</p>
 							<p class='mt-2 text-md'>{elem.subtitle}</p>
 						</div>
-						<div class='flex-1 bg-fpn-blue-dark overflow-y-auto my-4'>
+						<div class='flex-1 bg-fpn-blue overflow-y-auto my-4'>
 							<div class='p-4 flex flex-col gap-4 justify-center items-center'>
 								{#if elem.testimonial}
 									<div class=''>
@@ -86,8 +86,8 @@
 							<p class='text-md'>{elem.precta_text}</p>
 							<div class='group mt-4 text-center transition-transform hover:scale-110'>
 								<a href={browser ? passUtmParamsToLink(links['prejuge']) : links['prejuge'] } target='_blank'
-									 class='text-lg uppercase p-4 bg-fpn-orange text-white text-sm font-bold cursor-pointer'>
-									<img class='inline-block h-6 pr-3' src='/prejuges/icon-donner.svg' alt='donner logo' />
+									 class='text-lg uppercase p-4 bg-fpn-pink text-white text-sm font-bold cursor-pointer'>
+									<img class='inline-block h-6 pr-3' src='/icon-donner.svg' alt='donner logo' />
 									Faire un don
 								</a>
 							</div>
@@ -102,7 +102,7 @@
 <style lang='postcss'>
     section > div:last-child > div {
         &::before, &::after {
-            @apply border-fpn-orange;
+            @apply border-fpn-pink;
             position: absolute;
             width: 40px;
             height: 40px;
@@ -119,7 +119,7 @@
     .with-quote :global(> span::before) {
         position: absolute;
         content: ' ';
-        background-image: url("/prejuges/icon-quote.svg");
+        background-image: url("/icon-quote.svg");
         background-size: 30px 30px;
         width: 30px;
         height: 30px;

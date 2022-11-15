@@ -8,13 +8,13 @@
 		<div class='text-fpn-blue'>
 			<PlaceholderWithCorner>
 				<div>
-					<h2 class='text-2xl md:text-3xl text-fpn-blue-dark font-extrabold text-center'>
+					<h2 class='text-2xl md:text-3xl text-fpn-blue font-extrabold text-center'>
 						<span class='relative'>L</span>eur bonheur est notre récompense.
 					</h2>
 					<p class='text-right'>Lino Ventura</p>
 				</div>
 			</PlaceholderWithCorner>
-			<p class='text-sm pt-6 text-justify' data-aos='fade-in'>
+			<p class='text-sm font-black pt-6 text-justify' data-aos='fade-in'>
 				La Fondation Perce-Neige mène un combat initié il y a plus de 55 ans par Lino Ventura,
 				pour que les personnes handicapées trouvent leur place dans la société et soient reconnues
 				en tant qu’individus à part entière. Pour cela, la Fondation accueille et accompagne,
@@ -22,7 +22,7 @@
 				un handicap physique, psychique ou l'autisme. Elle apporte un soutien aux familles touchées
 				par le handicap et favorise la recherche scientifique et médicale.
 			</p>
-			<p class='text-sm italic pt-4 text-justify' data-aos='fade-in'>
+			<p class='text-sm font-black italic pt-4 text-justify' data-aos='fade-in'>
 				Reconnue d’utilité publique, La Fondation Perce-Neige a besoin de votre soutien
 				pour aider les personnes handicapées à s’épanouir sereinement et pleinement
 				au sein de la société.
@@ -34,7 +34,7 @@
 					<div class='mt-full'></div>
 					<div class='absolute -top-10 bottom-10 left-10 -right-10 bg-gray-200 hidden md:block'
 							 data-aos='zoom-in' data-aos-delay='400'></div>
-					<div class='absolute top-0 bottom-0 left-0 right-0 bg-fpn-blue p-5'>
+					<div class='absolute top-0 bottom-0 left-0 right-0 bg-fpn-blue-light p-5'>
 						<Video />
 					</div>
 				</div>
@@ -47,7 +47,7 @@
     h2 > span::before {
         position: absolute;
         content: ' ';
-        background-image: url("/prejuges/icon-quote.svg");
+        background-image: url("/icon-quote.svg");
         background-size: 40px 40px;
         width: 40px;
         height: 40px;
