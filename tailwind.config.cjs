@@ -24,11 +24,13 @@ const config = {
 				'fpn-blue': '#3573A8',
 				'fpn-blue-dark': '#2C5678',
 				'fpn-orange': '#F37923',
-				'fpn-blue-light': '#74a5c8',
-				'fpn-pink': '#F73659',
 			}
 		}
 	},
+
+	plugins: [
+		require('@tailwindcss/aspect-ratio'),
+	]
 };
 
 module.exports = config;

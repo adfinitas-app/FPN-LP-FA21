@@ -19,12 +19,12 @@
 	<div class='bg-fpn-blue max-w-6xl mx-auto'>
 		<div id='navbar' class='max-w-5xl mx-auto flex justify-between px-5 md:px-0'>
 			<div id='logo' class='extended bg-white transition-size' bind:this={logo}>
-				<img class='py-2 mx-auto w-auto h-full' src='/logo.png' alt='FPN Logo' />
+				<img class='py-2 mx-auto w-auto h-full' src='/idees-recues/logo.png' alt='FPN Logo' />
 			</div>
 			<div class='self-center'>
 				<a href={browser ? passUtmParamsToLink(links['header']) : links['header']} target='_blank'
 					 class='transition-transform hover:scale-110 cursor-pointer p-2 bg-fpn-pink md:p-5 uppercase text-white text-xs md:text-sm font-bold'>
-					<img class='inline-block h-5 md:h-6 pr-1 md:pr-3' src='/icon-donner.svg' alt='donner logo' />
+					<img class='inline-block h-5 md:h-6 pr-1 md:pr-3' src='/idees-recues/icon-donner.svg' alt='donner logo' />
 					Faire un don
 				</a>
 			</div>
@@ -49,10 +49,10 @@
 
         #logo {
             @apply h-20 w-16;
-
-            &.extended {
-                @apply h-36 w-32;
-            }
         }
+
+		#logo.extended {
+			@apply h-36 w-32;
+		}
     }
 </style>

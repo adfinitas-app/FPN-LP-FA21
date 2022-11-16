@@ -42,7 +42,7 @@
 									<img
 										class='absolute z-10 bottom-4 right-4 cursor-pointer opacity-75 hover:opacity-100 hover:scale-125 transition-transform'
 										style='width: 30px;'
-										src='/icon-plus.svg'
+										src='/idees-recues/icon-plus.svg'
 										alt='Plus icon'
 										on:click={toggleSelectedGrid.bind(null, index)} />
 								</div>
@@ -62,7 +62,7 @@
 					transition:fade={{duration: 150}}>
 					<img
 						class='absolute top-6 right-6 cursor-pointer opacity-75 hover:opacity-100 hover:scale-125 transition-transform'
-						style='width: 40px;' src='/icon-cross.svg' alt='Croix icon'
+						style='width: 40px;' src='/idees-recues/icon-cross.svg' alt='Croix icon'
 						on:click={toggleSelectedGrid.bind(null, index)} />
 					<div class='flex flex-col space-between justify-between h-full max-h-full' data-aos='fade-in'>
 						<div class='flex-shrink'>
@@ -87,7 +87,7 @@
 							<div class='group mt-4 text-center transition-transform hover:scale-110'>
 								<a href={browser ? passUtmParamsToLink(links['prejuge']) : links['prejuge'] } target='_blank'
 									 class='text-lg uppercase p-4 bg-fpn-pink text-white text-sm font-bold cursor-pointer'>
-									<img class='inline-block h-6 pr-3' src='/icon-donner.svg' alt='donner logo' />
+									<img class='inline-block h-6 pr-3' src='/idees-recues/icon-donner.svg' alt='donner logo' />
 									Faire un don
 								</a>
 							</div>
@@ -100,26 +100,25 @@
 </section>
 
 <style lang='postcss'>
-    section > div:last-child > div {
-        &::before, &::after {
+    section > div:last-child > div::before, section > div:last-child > div::after {
             @apply border-fpn-pink;
             position: absolute;
             width: 40px;
             height: 40px;
             border-style: solid; /* or whatever style */
             content: ' ';
-        }
 
-        &::before {
-            @apply top-8 left-8;
-            border-width: 10px 0 0 10px;
-        }
     }
+
+	section > div:last-child > div::before {
+		@apply top-8 left-8;
+            border-width: 10px 0 0 10px;
+	}
 
     .with-quote :global(> span::before) {
         position: absolute;
         content: ' ';
-        background-image: url("/icon-quote.svg");
+        background-image: url("/idees-recues/icon-quote.svg");
         background-size: 30px 30px;
         width: 30px;
         height: 30px;
