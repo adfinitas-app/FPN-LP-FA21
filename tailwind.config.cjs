@@ -24,6 +24,7 @@ const config = {
 				'fpn-blue': '#3573A8',
 				'fpn-blue-dark': '#2C5678',
 				'fpn-orange': '#F37923',
+				'fpn-pink': '#F73659',
 			}
 		}
 	},
