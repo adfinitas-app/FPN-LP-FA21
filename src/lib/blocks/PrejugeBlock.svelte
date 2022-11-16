@@ -9,7 +9,7 @@
 		<div class='mx-auto max-w-4xl px-5 md:px-0'>
 			<PlaceholderWithCorner>
 				<h2 class='text-2xl md:text-3xl text-fpn-blue-dark font-extrabold text-center'>
-					Luttons contre les préjugés, donnons-leur le sourire !
+					Luttons contre les préjugés, donnons-leur le sourire&nbsp;!
 				</h2>
 			</PlaceholderWithCorner>
 		</div>

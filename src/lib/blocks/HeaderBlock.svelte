@@ -10,7 +10,7 @@
 				<div data-aos='zoom-in' data-aos-duration='1000'>
 					<h1 class='text-4xl font-extrabold'>
 						<span class='text-5xl'>En décembre,</span>
-						donnons-leur le sourire !
+						donnons-leur le sourire&nbsp;!
 					</h1>
 				</div>
 			</PlaceholderWithCorner>
@@ -18,7 +18,7 @@
 				 data-aos='fade-in'
 				 data-aos-delay='1000'
 				 data-aos-easing='ease-in-out'>
-				Les idées reçues empêchent les enfants et adultes en situation de handicap mental de se sentir pleinement respectés et reconnus. Aujourd’hui pour les aider à vivre sereinement au sein de la société, offrons-leur notre soutien, notre attention et donnons-leur le sourire !
+				Les idées reçues empêchent les enfants et adultes en situation de handicap mental de se sentir pleinement respectés et reconnus. Aujourd’hui pour les aider à vivre sereinement au sein de la société, offrons-leur notre soutien, notre attention et donnons-leur le sourire&nbsp;!
 			</p>
 		</div>
 	</div>
@@ -39,7 +39,7 @@
 			bottom:0;
 			left:0;
 			right:0;
-			background: linear-gradient(to left, #74a5c8 0%, rgba(116, 165, 200, 0) 80%);
+			background: linear-gradient(to left, #74a5c8 0%, rgba(116, 165, 200, 0) 40%);
 
 		}
 	}
