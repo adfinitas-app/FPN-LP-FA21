@@ -1,4 +1,6 @@
 
+
+/////
 import adapter from "@sveltejs/adapter-static";
 import preprocess from "svelte-preprocess";
 import path from "path";
@@ -19,12 +21,23 @@ const config = {
 		paths: {
 			base: process.env.NODE_ENV === "production" ? "/idees-recues" : undefined
 		},
-		prerender: {
-			enabled: true,
-			entries: ['*'],},
-		
+		prerender: {enabled: true},
+		vite: {
+			server: {
+				fs: {
+					allow: [".."]
+				}
+			},
+			resolve: {
+				alias: {
+					"@content": path.resolve("./content")
+				}
+			}
+		}
 	},
 
+	experimental: {useVitePreprocess: true}
 };
 
 export default config;
+
