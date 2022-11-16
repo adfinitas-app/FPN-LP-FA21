@@ -27,7 +27,7 @@
 					<div class='cursor-pointer transition-transform hover:scale-110'>
 						<a href={browser ? passUtmParamsToLink(links['donner_50']) : links['donner_50'] } target='_blank'
 							 class='text-lg uppercase p-4 bg-fpn-pink text-white text-sm font-bold'>
-							<img class='inline-block h-6 pr-3' src='/icon-donner.svg' alt='donner logo' />
+							<img class='inline-block h-6 pr-3' src='/idees-recues/icon-donner.svg' alt='donner logo' />
 							Je donne
 						</a>
 					</div>
@@ -46,7 +46,7 @@
 					<div class='cursor-pointer transition-transform hover:scale-110'>
 						<a href={browser ? passUtmParamsToLink(links['donner_100']) : links['donner_100'] } target='_blank'
 							 class='text-lg uppercase p-4 bg-fpn-pink text-white text-sm font-bold'>
-							<img class='inline-block h-6 pr-3' src='/icon-donner.svg' alt='donner logo' />
+							<img class='inline-block h-6 pr-3' src='/idees-recues/icon-donner.svg' alt='donner logo' />
 							Je donne
 						</a>
 					</div>
@@ -65,7 +65,7 @@
 					<div class='cursor-pointer transition-transform hover:scale-110'>
 						<a href={browser ? passUtmParamsToLink(links['donner_200']) : links['donner_200'] } target='_blank'
 							 class='text-lg uppercase p-4 bg-fpn-pink text-white text-sm font-bold'>
-							<img class='inline-block h-6 pr-3' src='/icon-donner.svg' alt='donner logo' />
+							<img class='inline-block h-6 pr-3' src='/idees-recues/icon-donner.svg' alt='donner logo' />
 							Je donne
 						</a>
 					</div>

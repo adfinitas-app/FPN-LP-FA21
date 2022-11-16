@@ -1,6 +1,3 @@
-
-
-/////
 import adapter from "@sveltejs/adapter-static";
 import preprocess from "svelte-preprocess";
 import path from "path";
@@ -21,7 +18,7 @@ const config = {
 		paths: {
 			base: process.env.NODE_ENV === "production" ? "/idees-recues" : undefined
 		},
-		prerender: {enabled: true},
+		prerender: {default: true},
 		vite: {
 			server: {
 				fs: {
@@ -40,4 +37,3 @@ const config = {
 };
 
 export default config;
-

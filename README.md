@@ -1,38 +1,31 @@
-# create-svelte
+# Adfinitas Landing Page template repository
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+## What to do to serve my webapp in a domain subpath ?
 
-## Creating a project
+You will have to simply change the `adapter` and `paths` configuration in `svelte.config.js`:
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
+```js
+adapter: adapter({
+    pages: process.env.NODE_ENV === "production" ? "build/mysubpath" : undefined,
+    assets: process.env.NODE_ENV === "production" ? "build/mysubpath" : undefined,
+}),
+paths: {
+    base: process.env.NODE_ENV === "production" ? "/mysubpath" : undefined,
+},
 ```
 
-> Note: the `@next` is temporary
+## How that repository was created
 
-## Developing
+Run the following commands in the root of the repository:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```shell
+npm init svelte@2.0.0-next.127 template-landing-page && cd template-landing-page
+git init
+npx svelte-add@latest tailwindcss --forms --typography
+npm remove @sveltejs/adapter-auto && npm i -D @sveltejs/adapter-static@next
+npx mrm@2 lint-staged
 ```
 
-## Building
+Then do the following:
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
-
-```bash
-npm run build
-```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+- Change import from `adapter-auto` to `adapter-static` in file `svelte.config.js`.

@@ -22,34 +22,34 @@
 					<ul>
 						<li class='inline-block mr-1 transition-transform hover:scale-110 cursor-pointer'>
 							<a href={links['facebook']} target='_blank'>
-								<img style='width: 40px;' src='/icon-facebook.svg' alt='icone facebook' />
+								<img style='width: 40px;' src='/idees-recues/icon-facebook.svg' alt='icone facebook' />
 							</a>
 						</li>
 						<li class='inline-block mx-1 transition-transform hover:scale-110 cursor-pointer'>
 							<a href={links['twitter']} target='_blank'>
-								<img style='width: 40px;' src='/icon-twitter.svg' alt='icone twitter' />
+								<img style='width: 40px;' src='/idees-recues/icon-twitter.svg' alt='icone twitter' />
 							</a>
 						</li>
 						<li class='inline-block mx-1 transition-transform hover:scale-110 cursor-pointer'>
 							<a href={links['youtube']} target='_blank'>
-								<img style='width: 40px;' src='/icon-youtube.svg' alt='icone youtube' />
+								<img style='width: 40px;' src='/idees-recues/icon-youtube.svg' alt='icone youtube' />
 							</a>
 						</li>
 						<li class='inline-block mx-1 transition-transform hover:scale-110 cursor-pointer'>
 							<a href={links['instagram']} target='_blank'>
-								<img style='width: 40px;' src='/icon-instagram.svg' alt='icone instagram' />
+								<img style='width: 40px;' src='/idees-recues/icon-instagram.svg' alt='icone instagram' />
 							</a>
 						</li>
 						<li class='inline-block ml-1 transition-transform hover:scale-110 cursor-pointer'>
 							<a href={links['linkedin']} target='_blank'>
-								<img style='width: 40px;' src='/icon-linkedin.svg' alt='icone linkedin' />
+								<img style='width: 40px;' src='/idees-recues/icon-linkedin.svg' alt='icone linkedin' />
 							</a>
 						</li>
 					</ul>
 				</div>
 				<div class='mt-4 md:mt-10'>
 					<a href="https://www.donenconfiance.org" target='_blank'>
-					  <img class='mx-auto' style='width: 90px;' src='/icon-don_en_confiance.png' />
+					  <img class='mx-auto' style='width: 90px;' src='/idees-recues/icon-don_en_confiance.png' />
 					</a>
 				</div>
 			</div>

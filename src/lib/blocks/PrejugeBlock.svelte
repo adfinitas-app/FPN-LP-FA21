@@ -14,10 +14,10 @@
 			</PlaceholderWithCorner>
 		</div>
 		<div class='relative pb-6 bg-gradient-to-b from-white to-gray-100' >
-			<div class='absolute top-0 bottom-0 left-0 right-0 bg-repeat-x bg-top rotate-180 opacity-50' style='background-image: url("/prejuges/bg-pattern.png")'></div>
+			<div class='absolute top-0 bottom-0 left-0 right-0 bg-repeat-x bg-top rotate-180 opacity-50' style='background-image: url("/idees-recues/bg-pattern.png")'></div>
 			<div class='mx-auto max-w-4xl z-10 relative px-5 md:px-0'>
 				<div class='grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 mt-10'>
-					<img src='/photo-prejuge-1.png' alt='Photo de préjugés' />
+					<img src='/idees-recues/photo-prejuge-1.png' alt='Photo de préjugés' />
 					<div class='col-span-1 md:col-span-2 flex'>
 						<PrejugeTab />
 					</div>

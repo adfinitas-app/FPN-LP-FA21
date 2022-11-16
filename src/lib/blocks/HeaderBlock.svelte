@@ -26,7 +26,7 @@
 
 <style>
 	.bg-header {
-		background-image: url('/leftheader.jpg');
+		background-image: url('/idees-recues/leftheader.jpg');
 		background-size: cover;
 		background-position-x: 60%;
 	}
