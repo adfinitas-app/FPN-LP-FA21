@@ -27,5 +27,5 @@ export const links = {
 	'linkedin': 'https://fr.linkedin.com/company/perce-neige',
 	'mentions_legales': 'https://www.perce-neige.org/mentions-legales/',
 	'gestion_des_cookies': 'https://www.perce-neige.org/politique-de-protection-des-donnees-a-caractere-personnel/',
-	'ici': 'https://donner.perce-neige.org/b?cid=85&lang=fr_FR'
+	'ici': 'https://donner.perce-neige.org/b?cid=85&lang=fr_FR',
 };

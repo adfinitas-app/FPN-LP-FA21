@@ -22,21 +22,9 @@ const config = {
 		prerender: {
 			enabled: true,
 			entries: ['*'],},
-		vite: {
-			server: {
-				fs: {
-					allow: [".."]
-				},
-			},
-			resolve: {
-				alias: {
-					"@content": path.resolve("./content")
-				},
-			},
-		},
+		
 	},
 
-	experimental: {useVitePreprocess: true}
 };
 
 export default config;
