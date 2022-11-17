@@ -66,7 +66,7 @@
 						on:click={toggleSelectedGrid.bind(null, index)} />
 					<div class='flex flex-col space-between justify-between h-full max-h-full' data-aos='fade-in'>
 						<div class='flex-shrink'>
-							<p class='text-2xl text-fpn-pink font-extrabold'>{@html elem.title}</p>
+							<p class='text-2xl text-white font-extrabold'>{@html elem.title}</p>
 							<p class='mt-2 text-md'>{elem.subtitle}</p>
 						</div>
 						<div class='flex-1 bg-fpn-blue overflow-y-auto my-4'>
