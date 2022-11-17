@@ -48,7 +48,7 @@ export const grid_options = [
 		title: '<span class="relative">E</span>n France, on en fait déjà beaucoup pour les personnes handicapées.',
 		subtitle: 'Malheureusement, plus de 40 000 personnes handicapées sont toujours sans solution d’accueil en France.',
 		solution_title: 'Les actions de Perce-Neige pour aider les familles en souffrance',
-		solution_text: 'Perce-Neige accompagne au quotidien près de 1200 résidents et gère autant de demandes en liste d’attente...<br/><br/>Au sein de Perce-Neige, une cellule d’aide aux familles en difficulté assure une permanence téléphonique pour les conseiller et les soutenir. Les familles peuvent également avoir recours en Ile-de-France et dans le Vaucluse aux services d’équipes mobiles qui interviennent à leur domicile et bénéficier d’accueil en demi-journées dans les Maisons Perce-Neige de proximité.  ',
+		solution_text: 'Perce-Neige accompagne au quotidien plus de 1200 résidents et gère autant de demandes en liste d’attente...<br/><br/>Au sein de Perce-Neige, une cellule d’aide aux familles en difficulté assure une permanence téléphonique pour les conseiller et les soutenir. Les familles peuvent également avoir recours en Ile-de-France et dans le Vaucluse aux services d’équipes mobiles qui interviennent à leur domicile et bénéficier d’accueil en demi-journées dans les Maisons Perce-Neige de proximité.  ',
 		precta_text: 'Votre générosité est indispensable pour répondre aux besoins de milliers de personnes sans solution d’accueil adapté. Merci d’avance pour votre don !'
 	},
 	{
