@@ -14,7 +14,7 @@
 					</h1>
 				</div>
 			</PlaceholderWithCorner>
-			<p class='relative text-md font-black italic mt-10'
+			<p class='relative text-md italic mt-10'
 				 data-aos='fade-in'
 				 data-aos-delay='1000'
 				 data-aos-easing='ease-in-out'>
@@ -39,7 +39,7 @@
 			bottom:0;
 			left:0;
 			right:0;
-			background: linear-gradient(to left, #74a5c8 0%, rgba(116, 165, 200, 0) 40%);
+			background: linear-gradient(to left, #74a5c8 0%, rgba(116, 165, 200, 0) 20%);
 
 		}
 	}

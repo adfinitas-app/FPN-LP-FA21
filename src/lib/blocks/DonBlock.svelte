@@ -15,10 +15,10 @@
 		<div class='grid mt-20 mx-5 grid-cols-1 md:grid-cols-3 gap-8'>
 			<div class='bg-fpn-blue  p-6 pb-8 text-center flex flex-col justify-center'>
 				<div class="" data-aos='zoom-in'>
-					<p class='text-5xl font-extrabold'>
+					<p class='text-3xl font-extrabold'>
 						50€
 					</p>
-					<p class='text-2xl italic font-bold mt-6'>
+					<p class='text-xl italic font-bold mt-6'>
 						soit 17€
 						après déduction fiscale
 					</p>
@@ -35,10 +35,10 @@
 			</div>
 			<div class='bg-fpn-blue  p-6 pb-8  text-center flex flex-col justify-center'>
 				<div data-aos='zoom-in'>
-					<p class='text-5xl font-extrabold'>
+					<p class='text-3xl font-extrabold'>
 						100€
 					</p>
-					<p class='text-2xl italic font-bold mt-6'>
+					<p class='text-xl italic font-bold mt-6'>
 						soit 34€ après déduction fiscale
 					</p>
 				</div>
@@ -54,10 +54,10 @@
 			</div>
 			<div class='bg-fpn-blue p-6 pb-8 text-center flex flex-col justify-center'>
 				<div data-aos='zoom-in'>
-					<p class='text-5xl font-extrabold'>
+					<p class='text-3xl font-extrabold'>
 						200€
 					</p>
-					<p class='text-2xl italic font-bold mt-6'>
+					<p class='text-xl italic font-bold mt-6'>
 						soit 68€ après déduction fiscale
 					</p>
 				</div>
@@ -72,6 +72,6 @@
 				</div>
 			</div>
 		</div>
-		<div class=" mx-auto text-[24px] leading-none font-black text-fpn-pink italic text-center m-5 w-full">Toute contribution est importante. Je fais un don du montant de mon choix <a href={browser ? passUtmParamsToLink(links['ici']) : links['ici'] } target="_blank">ici.</a></div>
+		<div class=" mx-auto text-[18px] leading-none font-black text-fpn-pink italic text-center m-5 w-full">Toute contribution est importante. Je fais un don du montant de mon choix <a class="underline" href={browser ? passUtmParamsToLink(links['ici']) : links['ici'] } target="_blank">ici.</a></div>
 	</div>
 </section>

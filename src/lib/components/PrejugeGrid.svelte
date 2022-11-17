@@ -88,7 +88,7 @@
 								<a href={browser ? passUtmParamsToLink(links['prejuge']) : links['prejuge'] } target='_blank'
 									 class='text-lg uppercase p-4 bg-fpn-pink text-white text-sm font-bold cursor-pointer'>
 									<img class='inline-block h-6 pr-3' src='/idees-recues/icon-donner.svg' alt='donner logo' />
-									Faire un don
+									je fais un don
 								</a>
 							</div>
 						</div>
