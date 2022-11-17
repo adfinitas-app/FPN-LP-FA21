@@ -32,7 +32,7 @@ export const grid_options = [
 		title: '<span class="relative">L</span>es personnes handicapées mentales n’ont pas conscience de leur différence.',
 		subtitle: 'Cette affirmation est fausse : elles en ont conscience et en souffrent dans leur quotidien.',
 		solution_title: 'Perce-Neige favorise l’épanouissement personnel',
-		solution_text: 'Parce que nous savons que les enfants et adultes en situation de handicap souffrent encore beaucoup du regard porté sur eux, nous les entourons de toute notre bienveillance et favorisons leur épanouissement grâce à leur participation à des activités leur permettant de s’intégrer dans la vie locale.',
+		solution_text: 'Parce que nous savons que les enfants et adultes en situation de handicap souffrent encore beaucoup du regard porté sur eux, nous les entourons de toute notre bienveillance et favorisons leur épanouissement grâce à leur participation à des activités leur permettant notamment de s’intégrer dans la vie locale.',
 		precta_text: 'Faites un don à Perce-Neige pour aider les personnes handicapées à vivre pleinement et sereinement !'
 	},
 	{
@@ -41,11 +41,11 @@ export const grid_options = [
 		subtitle: 'En fait, depuis le début du XXe siècle, les personnes handicapées mentales ont gagné plus de trente années d’espérance de vie.',
 		solution_title: 'Perce-Neige accompagne sur la durée ses résidents',
 		solution_text: 'En réponse à l’inquiétude des familles sur le devenir de leur enfant, Perce-Neige propose un accueil et un accompagnement pérennes dans ses maisons de vie.',
-		precta_text: ''
+		precta_text: 'Faites un don à Perce-Neige pour aider les personnes handicapées à vivre pleinement et sereinement !'
 	},
 	{
 		type: 'prejuge',
-		title: '<span class="relative">E</span>n France, on en fait déjà beaucoup pour les personnes handicapées !',
+		title: '<span class="relative">E</span>n France, on en fait déjà beaucoup pour les personnes handicapées.',
 		subtitle: 'Malheureusement, plus de 40 000 personnes handicapées sont toujours sans solution d’accueil en France.',
 		solution_title: 'Les actions de Perce-Neige pour aider les familles en souffrance',
 		solution_text: 'Perce-Neige accompagne au quotidien près de 1200 résidents et gère autant de demandes en liste d’attente...<br/><br/>Au sein de Perce-Neige, une cellule d’aide aux familles en difficulté assure une permanence téléphonique pour les conseiller et les soutenir. Les familles peuvent également avoir recours en Ile-de-France et dans le Vaucluse aux services d’équipes mobiles qui interviennent à leur domicile et bénéficier d’accueil en demi-journées dans les Maisons Perce-Neige de proximité.  ',
