@@ -23,7 +23,7 @@
 				par le handicap et favorise la recherche scientifique et médicale.
 			</p>
 			<p class='text-sm font-black italic pt-4 text-justify' data-aos='fade-in'>
-				Reconnue d’utilité publique, La Fondation Perce-Neige a besoin de votre soutien
+				Reconnue d’utilité publique, la Fondation Perce-Neige a besoin de votre soutien
 				pour aider les personnes handicapées à s’épanouir sereinement et pleinement
 				au sein de la société.
 			</p>
