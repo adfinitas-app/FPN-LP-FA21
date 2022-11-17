@@ -25,7 +25,7 @@
 				<a href={browser ? passUtmParamsToLink(links['header']) : links['header']} target='_blank'
 					 class='transition-transform hover:scale-110 cursor-pointer p-2 bg-fpn-pink md:p-5 uppercase text-white text-xs md:text-sm font-bold'>
 					<img class='inline-block h-5 md:h-6 pr-1 md:pr-3' src='/idees-recues/icon-donner.svg' alt='donner logo' />
-					Faire un don
+					je fais un don
 				</a>
 			</div>
 		</div>
