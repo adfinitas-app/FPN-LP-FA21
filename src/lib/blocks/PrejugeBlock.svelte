@@ -9,7 +9,7 @@
 		<div class='mx-auto max-w-4xl px-5 md:px-0'>
 			<PlaceholderWithCorner>
 				<h2 class='text-2xl md:text-3xl text-fpn-blue-dark font-extrabold text-center'>
-					Encore trop d'idées reçues, donnons-leur le sourire&nbsp;!
+					Encore trop d'idées reçues... donnons-leur le sourire&nbsp;!
 				</h2>
 			</PlaceholderWithCorner>
 		</div>
