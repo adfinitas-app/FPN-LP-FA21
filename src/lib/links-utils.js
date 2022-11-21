@@ -16,7 +16,7 @@ export function passUtmParamsToLink(base) {
 
 export const links = {
 	'header': 'https://donner.perce-neige.org/b?cid=85&lang=fr_FR',
-	'prejuge': 'https://donner.perce-neige.org/b?cid=71&utm_campaign=FA21&utm_source=LP&utm_medium=organic',
+	'prejuge': 'https://donner.perce-neige.org/b?cid=85&lang=fr_FR',
 	'donner_50': 'https://donner.perce-neige.org/b?cid=85&lang=fr_FR&amount=5000',
 	'donner_100': 'https://donner.perce-neige.org/b?cid=85&lang=fr_FR&amount=10000',
 	'donner_200': 'https://donner.perce-neige.org/b?cid=85&lang=fr_FR&amount=20000',
