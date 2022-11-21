@@ -52,7 +52,7 @@
         width: 40px;
         height: 40px;
         z-index: -10;
-        top: -15px;
-        left: -25px;
+        top: -30px;
+        left: -30px;
     }
 </style>
