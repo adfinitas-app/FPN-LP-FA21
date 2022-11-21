@@ -19,7 +19,7 @@
 				pour que les personnes handicapées trouvent leur place dans la société et soient reconnues
 				en tant qu’individus à part entière. Pour cela, la Fondation accueille et accompagne,
 				de façon adaptée, les enfants et les adultes touchés par une déficience mentale,
-				un handicap physique, psychique ou l'autisme. Elle apporte un soutien aux familles touchées
+				un handicap physique, psychique ou l'autisme. Elle apporte un soutien aux familles concernées
 				par le handicap et favorise la recherche scientifique et médicale.
 			</p>
 			<p class='text-sm font-black italic pt-4 text-justify' data-aos='fade-in'>

@@ -24,7 +24,7 @@
 							<div class='flex' data-aos='fade-in' data-aos-easing='easing-out' data-aos-duration='750'>
 								<img src='/idees-recues/icon-arrow.svg' style='width: 30px;' alt='icone de fleche' />
 								<p class='ml-4'>
-									Une nouvelle « Classe Soleil » de maternelle au Vésinet, pour scolariser et préparer l’intégration en primaire des enfants autistes.
+									Une nouvelle « Classe Soleil » de maternelle au Vésinet dans les Yvelines, pour scolariser et préparer l’intégration en primaire des enfants autistes.
 								</p>
 							</div>
 						</div>
